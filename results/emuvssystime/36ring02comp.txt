@@ -1,0 +1,2159 @@
+Info: Emulator MaxiNet is used.
+Info: The test will run for 7200 seconds
+Info: The test will use topology specified in Test_36_ring.dat
+Flow not satisfied : {'isGen': False, 'y': 2674.4106453991135, 'p_flow': 3000000.0, 'l_flow': 0.002241523639207285, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6.413459777832031e-05, 'fremindex': None, 'duration': 35.56514838703584, 'x': 3009.248323101895, 'b_flow': 5323656.439772116, 'type': 'JSJB'}
+Reason: 2, t = 0.482743554668
+Time: 0.482743554668
+System Time Passed: 0.000764131546021
+State: Solved
+CRCs: 1, CLCs: 1 (out of 25 available), Control ratio: 1.0, Average load: 0.981337672605
+Latest CRCs: [17] and , CLCs: [10]
+Flows satisfied: 1 out of 1
+Runtime: 0.0133349895477 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5275.84008426301, 'p_flow': 3000000.0, 'l_flow': 0.0015460067286736363, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 0.4830760955810547, 'fremindex': None, 'duration': 188.40790713001542, 'x': -957.165499457169, 'b_flow': 18750592.43225697, 'type': 'JP'}
+Reason: 2, t = 2.07177836364
+Time: 2.07177836364
+System Time Passed: 0.483761072159
+State: Solved
+CRCs: 1, CLCs: 2 (out of 25 available), Control ratio: 1.0, Average load: 0.517503014893
+Latest CRCs: [17] and , CLCs: [10, 5]
+Flows satisfied: 2 out of 2
+Runtime: 0.000615835189819 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': -512.3327455985989, 'p_flow': 3000000.0, 'l_flow': 0.002884244013558363, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 19.18915605545044, 'fremindex': None, 'duration': 40.10067738610922, 'x': 5266.922295764528, 'b_flow': 9164364.906479519, 'type': 'JSJB'}
+Reason: 2, t = 22.3042505065
+Time: 22.3042505065
+System Time Passed: 19.1898729801
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.22222222222, Average load: 0.531283384399
+Latest CRCs: [17] and , CLCs: [10, 5, 18]
+Flows satisfied: 14 out of 14
+Runtime: 0.0011510848999 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4387.884250650731, 'p_flow': 3000000.0, 'l_flow': 0.003503437810049603, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 76.50415110588074, 'fremindex': None, 'duration': 19.756372132183213, 'x': 3469.1087980022467, 'b_flow': 18288870.93341136, 'type': 'JP'}
+Reason: 2, t = 76.8018967931
+Time: 76.8018967931
+System Time Passed: 76.5051791668
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.80555555556, Average load: 0.676302710977
+Latest CRCs: [17] and , CLCs: [10, 5, 18, 21]
+Flows satisfied: 31 out of 31
+Runtime: 0.00148010253906 seconds
+
+
+Reason: 3, t = 102.382876739
+Time: 102.382876739
+System Time Passed: 100.596004009
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.55555555556, Average load: 0.755068526067
+Latest CRCs: [17] and , CLCs: [10, 5, 18]
+Flows satisfied: 26 out of 26
+Runtime: 0.000674962997437 seconds
+
+
+Time: 162.945087292
+System Time Passed: 159.55472517
+Flows satisfied: 31 out of 31
+Next flow removed at: 13.7330517307
+Average CLC load: 0.887198635293
+addcount:102 and remcount:71
+
+
+Flow not satisfied : {'isGen': False, 'y': -766.3111508578104, 'p_flow': 3000000.0, 'l_flow': 0.0014077309044611451, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 169.3880250453949, 'fremindex': None, 'duration': 73.80625707318285, 'x': 4273.802200319215, 'b_flow': 6682402.106570469, 'type': 'JSJB'}
+Reason: 2, t = 173.023214293
+Time: 173.023214293
+System Time Passed: 169.389019966
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.69444444444, Average load: 0.659094450746
+Latest CRCs: [17] and , CLCs: [10, 5, 18, 24]
+Flows satisfied: 34 out of 34
+Runtime: 0.00143909454346 seconds
+
+
+Time: 233.02886086
+System Time Passed: 230.35633111
+Flows satisfied: 38 out of 38
+Next flow removed at: 13.7330517307
+Average CLC load: 0.94637140107
+addcount:145 and remcount:107
+
+
+Reason: 3, t = 244.842811365
+Time: 244.842811365
+System Time Passed: 245.107522011
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.38888888889, Average load: 0.811454579333
+Latest CRCs: [17] and , CLCs: [10, 18, 24]
+Flows satisfied: 31 out of 31
+Runtime: 0.00206995010376 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4026.8500009428963, 'p_flow': 3000000.0, 'l_flow': 0.002164764383673396, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 261.1597349643707, 'fremindex': None, 'duration': 3.1732528427530418, 'x': 1380.1780066907813, 'b_flow': 5388140.643373146, 'type': 'JSJB'}
+Reason: 2, t = 262.342560977
+Time: 262.342560977
+System Time Passed: 261.16080308
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.41666666667, Average load: 0.651040631849
+Latest CRCs: [17] and , CLCs: [10, 18, 24, 15]
+Flows satisfied: 35 out of 35
+Runtime: 0.00138282775879 seconds
+
+
+Reason: 3, t = 276.756948152
+Time: 276.756948152
+System Time Passed: 264.898379087
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.25, Average load: 0.719691028639
+Latest CRCs: [17] and , CLCs: [10, 18, 24]
+Flows satisfied: 26 out of 26
+Runtime: 0.000576972961426 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2498.6225877887355, 'p_flow': 3000000.0, 'l_flow': 0.0011747557928719634, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 309.5966181755066, 'fremindex': None, 'duration': 27.88757694497626, 'x': 3899.7511550128393, 'b_flow': 18230472.005225986, 'type': 'JP'}
+Reason: 2, t = 310.231982468
+Time: 310.231982468
+System Time Passed: 309.597440004
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.58333333333, Average load: 0.702515797209
+Latest CRCs: [17] and , CLCs: [10, 18, 24, 29]
+Flows satisfied: 34 out of 34
+Runtime: 0.000922918319702 seconds
+
+
+Time: 370.473680099
+System Time Passed: 369.59722209
+Flows satisfied: 26 out of 26
+Next flow removed at: 187.522881248
+Average CLC load: 0.723038430509
+addcount:221 and remcount:195
+
+
+Reason: 3, t = 421.068291457
+Time: 421.068291457
+System Time Passed: 419.513415098
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.44444444444, Average load: 0.794710319332
+Latest CRCs: [17] and , CLCs: [10, 18, 24]
+Flows satisfied: 28 out of 28
+Runtime: 0.000945806503296 seconds
+
+
+Reason: 3, t = 486.597002443
+Time: 486.597002443
+System Time Passed: 483.678971052
+State: Solved
+CRCs: 1, CLCs: 2 (out of 25 available), Control ratio: 1.11111111111, Average load: 0.788721841311
+Latest CRCs: [17] and , CLCs: [10, 24]
+Flows satisfied: 15 out of 15
+Runtime: 0.00188493728638 seconds
+
+
+Time: 548.470757794
+System Time Passed: 544.166728973
+Flows satisfied: 16 out of 16
+Next flow removed at: 187.522881248
+Average CLC load: 0.966204736845
+addcount:284 and remcount:268
+
+
+Flow not satisfied : {'isGen': False, 'y': 5278.149141987402, 'p_flow': 3000000.0, 'l_flow': 0.003907482552687058, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 555.6103241443634, 'fremindex': None, 'duration': 17.05885481220286, 'x': 5734.241695650882, 'b_flow': 18985043.925128657, 'type': 'JP'}
+Reason: 2, t = 556.901858879
+Time: 556.901858879
+System Time Passed: 555.611026049
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.22222222222, Average load: 0.648518638203
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 19 out of 19
+Runtime: 0.000648975372314 seconds
+
+
+Time: 624.076809569
+System Time Passed: 622.491721153
+Flows satisfied: 23 out of 23
+Next flow removed at: 187.522881248
+Average CLC load: 0.779295713953
+addcount:310 and remcount:287
+
+
+Time: 685.926544509
+System Time Passed: 684.317851067
+Flows satisfied: 19 out of 19
+Next flow removed at: 187.522881248
+Average CLC load: 0.76306424375
+addcount:327 and remcount:308
+
+
+Time: 747.700994231
+System Time Passed: 745.858349085
+Flows satisfied: 26 out of 26
+Next flow removed at: 187.522881248
+Average CLC load: 0.939683529177
+addcount:354 and remcount:328
+
+
+Flow not satisfied : {'isGen': False, 'y': 489.03298193769183, 'p_flow': 3000000.0, 'l_flow': 0.0012114572314095434, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 747.7029671669006, 'fremindex': None, 'duration': 5.771450961201688, 'x': 1118.1911039686302, 'b_flow': 15956002.93357899, 'type': 'JP'}
+Reason: 2, t = 750.151046783
+Time: 750.151046783
+System Time Passed: 747.70404911
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.61111111111, Average load: 0.661224109789
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 6]
+Flows satisfied: 27 out of 27
+Runtime: 0.00155901908875 seconds
+
+
+Reason: 3, t = 779.262517487
+Time: 779.262517487
+System Time Passed: 779.078655005
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.38888888889, Average load: 0.734432341647
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 20 out of 20
+Runtime: 0.000659942626953 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2620.615484815304, 'p_flow': 3000000.0, 'l_flow': 0.0016965860531309876, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 798.2844111919403, 'fremindex': None, 'duration': 201.36463660881546, 'x': 1032.1073262563439, 'b_flow': 9288786.19996116, 'type': 'JSJB'}
+Reason: 2, t = 798.601449108
+Time: 798.601449108
+System Time Passed: 798.28520298
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.72222222222, Average load: 0.703029883268
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2]
+Flows satisfied: 27 out of 27
+Runtime: 0.000802993774414 seconds
+
+
+Reason: 3, t = 819.706576265
+Time: 819.706576265
+System Time Passed: 819.606819153
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.52777777778, Average load: 0.844357473669
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 25 out of 25
+Runtime: 0.00091290473938 seconds
+
+
+Time: 888.454773326
+System Time Passed: 888.481161118
+Flows satisfied: 22 out of 22
+Next flow removed at: 187.522881248
+Average CLC load: 0.771299757505
+addcount:384 and remcount:362
+
+
+Flow not satisfied : {'isGen': False, 'y': 4121.793556306292, 'p_flow': 3000000.0, 'l_flow': 0.0016271070520567092, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 926.2647881507874, 'fremindex': None, 'duration': 113.35740388974664, 'x': -149.41371620642508, 'b_flow': 18008414.304326996, 'type': 'JP'}
+Reason: 2, t = 927.511172372
+Time: 927.511172372
+System Time Passed: 926.265793085
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.61111111111, Average load: 0.706777655394
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 3]
+Flows satisfied: 30 out of 30
+Runtime: 0.00119590759277 seconds
+
+
+Reason: 3, t = 939.795428117
+Time: 939.795428117
+System Time Passed: 938.975054026
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.38888888889, Average load: 0.805594604766
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 24 out of 24
+Runtime: 0.000921964645386 seconds
+
+
+Time: 1003.75286477
+System Time Passed: 1001.89964914
+Flows satisfied: 22 out of 22
+Next flow removed at: 187.522881248
+Average CLC load: 0.879456660771
+addcount:420 and remcount:398
+
+
+Time: 1073.81913163
+System Time Passed: 1072.55546117
+Flows satisfied: 21 out of 21
+Next flow removed at: 187.522881248
+Average CLC load: 0.834670063354
+addcount:435 and remcount:414
+
+
+Time: 1141.73219072
+System Time Passed: 1141.41039896
+Flows satisfied: 13 out of 13
+Next flow removed at: 187.522881248
+Average CLC load: 0.765443248392
+addcount:443 and remcount:430
+
+
+Time: 1202.57970821
+System Time Passed: 1202.15504909
+Flows satisfied: 18 out of 18
+Next flow removed at: 187.522881248
+Average CLC load: 0.827578392855
+addcount:459 and remcount:441
+
+
+Flow not satisfied : {'isGen': False, 'y': 5575.627967075922, 'p_flow': 3000000.0, 'l_flow': 0.002359691519403275, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1228.8208060264587, 'fremindex': None, 'duration': 2.8744515960279595, 'x': 3625.368365041344, 'b_flow': 7598817.089848806, 'type': 'JSJB'}
+Reason: 2, t = 1229.20483335
+Time: 1229.20483335
+System Time Passed: 1228.821805
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.52777777778, Average load: 0.635195815846
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 28]
+Flows satisfied: 21 out of 21
+Runtime: 0.00115990638733 seconds
+
+
+Reason: 3, t = 1241.16317144
+Time: 1241.16317144
+System Time Passed: 1231.89552999
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.30555555556, Average load: 0.737741263996
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 18 out of 18
+Runtime: 0.000633001327515 seconds
+
+
+Time: 1327.24268197
+System Time Passed: 1327.149544
+Flows satisfied: 14 out of 14
+Next flow removed at: 187.522881248
+Average CLC load: 0.829085894867
+addcount:486 and remcount:472
+
+
+Time: 1388.41514957
+System Time Passed: 1387.03633618
+Flows satisfied: 16 out of 16
+Next flow removed at: 187.522881248
+Average CLC load: 0.805352409421
+addcount:496 and remcount:480
+
+
+Time: 1467.28249774
+System Time Passed: 1465.19065404
+Flows satisfied: 15 out of 15
+Next flow removed at: 187.522881248
+Average CLC load: 0.76990900073
+addcount:509 and remcount:494
+
+
+Flow not satisfied : {'isGen': False, 'y': 1973.0721038637862, 'p_flow': 3000000.0, 'l_flow': 0.0016427514938347054, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1508.514974117279, 'fremindex': None, 'duration': 2.7852392214520467, 'x': 791.8857017115561, 'b_flow': 16016327.382744282, 'type': 'JP'}
+Reason: 2, t = 1509.54161874
+Time: 1509.54161874
+System Time Passed: 1508.51606512
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.47222222222, Average load: 0.657037943391
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 7]
+Flows satisfied: 22 out of 22
+Runtime: 0.00146198272705 seconds
+
+
+Reason: 3, t = 1540.22689533
+Time: 1540.22689533
+System Time Passed: 1538.57223415
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.38888888889, Average load: 0.844883471723
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 24 out of 24
+Runtime: 0.000869035720825 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 27.82772360886679, 'p_flow': 3000000.0, 'l_flow': 0.003251027168242292, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1558.5400080680847, 'fremindex': None, 'duration': 139.33696439045198, 'x': 5793.956224234818, 'b_flow': 19253854.89319832, 'type': 'JP'}
+Reason: 2, t = 1558.78104997
+Time: 1558.78104997
+System Time Passed: 1558.54077196
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.55555555556, Average load: 0.713962785687
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 14]
+Flows satisfied: 29 out of 29
+Runtime: 0.000916004180908 seconds
+
+
+Reason: 3, t = 1574.88281767
+Time: 1574.88281767
+System Time Passed: 1574.86374116
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.38888888889, Average load: 0.851603141344
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 24 out of 24
+Runtime: 0.00104117393494 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5216.923042620861, 'p_flow': 3000000.0, 'l_flow': 0.004753091343306669, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1606.3204350471497, 'fremindex': None, 'duration': 190.7077744151717, 'x': 1109.9168333076677, 'b_flow': 18223023.70261711, 'type': 'JP'}
+Reason: 2, t = 1607.22470548
+Time: 1607.22470548
+System Time Passed: 1606.32130504
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.52777777778, Average load: 0.702349158769
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 5]
+Flows satisfied: 26 out of 26
+Runtime: 0.000759840011597 seconds
+
+
+Reason: 3, t = 1628.5398909
+Time: 1628.5398909
+System Time Passed: 1627.2075882
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.30555555556, Average load: 0.807955424934
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 19 out of 19
+Runtime: 0.000972032546997 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2892.5835334724484, 'p_flow': 3000000.0, 'l_flow': 0.004244855255188258, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1679.8613681793213, 'fremindex': None, 'duration': 81.73684860052592, 'x': 3242.7488385948773, 'b_flow': 9419415.152519267, 'type': 'JSJB'}
+Reason: 2, t = 1680.76015855
+Time: 1680.76015855
+System Time Passed: 1679.86208105
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.55555555556, Average load: 0.701326013479
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 21]
+Flows satisfied: 26 out of 26
+Runtime: 0.000789880752563 seconds
+
+
+Reason: 3, t = 1711.05425183
+Time: 1711.05425183
+System Time Passed: 1707.34979701
+State: Solved
+CRCs: 1, CLCs: 3 (out of 25 available), Control ratio: 1.38888888889, Average load: 0.877971947021
+Latest CRCs: [17] and , CLCs: [10, 24, 34]
+Flows satisfied: 27 out of 27
+Runtime: 0.00139594078064 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2312.017042285806, 'p_flow': 3000000.0, 'l_flow': 0.0032473246985907484, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1722.9478430747986, 'fremindex': None, 'duration': 53.82262140247772, 'x': -139.48280251242534, 'b_flow': 8737059.52163542, 'type': 'JSJB'}
+Reason: 2, t = 1723.74645579
+Time: 1723.74645579
+System Time Passed: 1722.94855404
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.55555555556, Average load: 0.739673143243
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2]
+Flows satisfied: 29 out of 29
+Runtime: 0.000844955444336 seconds
+
+
+Time: 1783.82518097
+System Time Passed: 1780.95034218
+Flows satisfied: 27 out of 27
+Next flow removed at: 187.522881248
+Average CLC load: 0.976425212084
+addcount:613 and remcount:586
+
+
+Flow not satisfied : {'isGen': False, 'y': 2997.2065731765824, 'p_flow': 3000000.0, 'l_flow': 0.0032203949698646596, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1786.2684230804443, 'fremindex': None, 'duration': 17.944263809454366, 'x': 1413.2575226445674, 'b_flow': 7555946.476814988, 'type': 'JSJB'}
+Reason: 2, t = 1786.3437065
+Time: 1786.3437065
+System Time Passed: 1786.26922512
+State: Solved
+CRCs: 1, CLCs: 5 (out of 25 available), Control ratio: 1.83333333333, Average load: 0.678071656917
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 3]
+Flows satisfied: 29 out of 29
+Runtime: 0.00109195709229 seconds
+
+
+Reason: 3, t = 1800.57972045
+Time: 1800.57972045
+System Time Passed: 1797.09342003
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.66666666667, Average load: 0.817564005857
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2]
+Flows satisfied: 28 out of 28
+Runtime: 0.00122904777527 seconds
+
+
+Time: 1862.49874176
+System Time Passed: 1860.70649815
+Flows satisfied: 24 out of 24
+Next flow removed at: 187.522881248
+Average CLC load: 0.856311860664
+addcount:640 and remcount:616
+
+
+Flow not satisfied : {'isGen': False, 'y': -128.49501899548602, 'p_flow': 3000000.0, 'l_flow': 0.0033984210606405126, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 1899.253890991211, 'fremindex': None, 'duration': 14.847985491469718, 'x': -463.19782456877476, 'b_flow': 8519702.404424123, 'type': 'JSJB'}
+Reason: 2, t = 1900.4816806
+Time: 1900.4816806
+System Time Passed: 1899.25475502
+State: Solved
+CRCs: 1, CLCs: 5 (out of 25 available), Control ratio: 1.80555555556, Average load: 0.716063212219
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 0]
+Flows satisfied: 30 out of 30
+Runtime: 0.0010838508606 seconds
+
+
+Reason: 3, t = 1913.29916976
+Time: 1913.29916976
+System Time Passed: 1913.28841519
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.69444444444, Average load: 0.835298272688
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2]
+Flows satisfied: 27 out of 27
+Runtime: 0.0014169216156 seconds
+
+
+Time: 1973.73235247
+System Time Passed: 1969.39456105
+Flows satisfied: 23 out of 23
+Next flow removed at: 187.522881248
+Average CLC load: 0.90245891074
+addcount:677 and remcount:654
+
+
+Flow not satisfied : {'isGen': False, 'y': 2278.06159210112, 'p_flow': 3000000.0, 'l_flow': 0.00465125356772477, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2007.9053230285645, 'fremindex': None, 'duration': 20.75309173956445, 'x': 3852.167565756572, 'b_flow': 7558854.284941016, 'type': 'JSJB'}
+Reason: 2, t = 2008.08556498
+Time: 2008.08556498
+System Time Passed: 2007.90672302
+State: Solved
+CRCs: 1, CLCs: 5 (out of 25 available), Control ratio: 1.63888888889, Average load: 0.655730142366
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 32]
+Flows satisfied: 27 out of 27
+Runtime: 0.00136804580688 seconds
+
+
+Reason: 3, t = 2057.99148082
+Time: 2057.99148082
+System Time Passed: 2056.46701717
+State: Solved
+CRCs: 1, CLCs: 4 (out of 25 available), Control ratio: 1.61111111111, Average load: 0.798609903769
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2]
+Flows satisfied: 25 out of 25
+Runtime: 0.000929117202759 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5398.457590359815, 'p_flow': 3000000.0, 'l_flow': 0.0013603448474234154, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2101.7239310741425, 'fremindex': None, 'duration': 4.044473595105692, 'x': 4356.803790036636, 'b_flow': 9118491.167291645, 'type': 'JSJB'}
+Reason: 2, t = 2103.38946141
+Time: 2103.38946141
+System Time Passed: 2101.72483516
+State: Solved
+CRCs: 1, CLCs: 5 (out of 25 available), Control ratio: 1.75, Average load: 0.72066055347
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29]
+Flows satisfied: 31 out of 31
+Runtime: 0.00103497505188 seconds
+
+
+Time: 2164.61517019
+System Time Passed: 2157.59936714
+Flows satisfied: 29 out of 29
+Next flow removed at: 187.522881248
+Average CLC load: 0.808969373256
+addcount:741 and remcount:712
+
+
+Time: 2225.7518737
+System Time Passed: 2224.27829504
+Flows satisfied: 30 out of 30
+Next flow removed at: 187.522881248
+Average CLC load: 0.863224448355
+addcount:765 and remcount:735
+
+
+Time: 2286.98490235
+System Time Passed: 2282.49485016
+Flows satisfied: 33 out of 33
+Next flow removed at: 187.522881248
+Average CLC load: 0.914786581457
+addcount:787 and remcount:754
+
+
+Flow not satisfied : {'isGen': False, 'y': 5513.922377223654, 'p_flow': 3000000.0, 'l_flow': 0.002660651998598099, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2317.3363811969757, 'fremindex': None, 'duration': 20.816355888974293, 'x': 1817.9955803536195, 'b_flow': 18243398.68157459, 'type': 'JP'}
+Reason: 2, t = 2317.68128217
+Time: 2317.68128217
+System Time Passed: 2317.33757806
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.08333333333, Average load: 0.726390003082
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 21]
+Flows satisfied: 41 out of 41
+Runtime: 0.0019428730011 seconds
+
+
+Time: 2379.23742871
+System Time Passed: 2377.37791419
+Flows satisfied: 36 out of 36
+Next flow removed at: 187.522881248
+Average CLC load: 0.873472852747
+addcount:834 and remcount:798
+
+
+Time: 2443.13750175
+System Time Passed: 2442.72473001
+Flows satisfied: 33 out of 33
+Next flow removed at: 187.522881248
+Average CLC load: 0.829086790272
+addcount:864 and remcount:831
+
+
+Time: 2503.64082404
+System Time Passed: 2502.84187508
+Flows satisfied: 42 out of 42
+Next flow removed at: 187.522881248
+Average CLC load: 0.87257022618
+addcount:904 and remcount:862
+
+
+Time: 2565.20544515
+System Time Passed: 2554.81882501
+Flows satisfied: 38 out of 38
+Next flow removed at: 187.522881248
+Average CLC load: 0.829597945298
+addcount:946 and remcount:908
+
+
+Flow not satisfied : {'isGen': False, 'y': 2172.734309691683, 'p_flow': 3000000.0, 'l_flow': 0.0023034898779646933, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2583.998304128647, 'fremindex': None, 'duration': 74.6531100966303, 'x': 4174.914547320701, 'b_flow': 16636391.088152753, 'type': 'JP'}
+Reason: 2, t = 2584.57862503
+Time: 2584.57862503
+System Time Passed: 2583.99932218
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.44444444444, Average load: 0.710795830045
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 21, 32]
+Flows satisfied: 43 out of 43
+Runtime: 0.00198698043823 seconds
+
+
+Time: 2645.88000878
+System Time Passed: 2644.1493001
+Flows satisfied: 47 out of 47
+Next flow removed at: 187.522881248
+Average CLC load: 0.838390397658
+addcount:991 and remcount:944
+
+
+Time: 2708.40360235
+System Time Passed: 2703.37391305
+Flows satisfied: 48 out of 48
+Next flow removed at: 187.522881248
+Average CLC load: 0.797999842777
+addcount:1032 and remcount:984
+
+
+Reason: 3, t = 2718.5176131
+Time: 2718.5176131
+System Time Passed: 2718.20328307
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.19444444444, Average load: 0.774498368773
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32]
+Flows satisfied: 45 out of 45
+Runtime: 0.00256490707397 seconds
+
+
+Time: 2779.54636008
+System Time Passed: 2778.54240608
+Flows satisfied: 38 out of 38
+Next flow removed at: 187.522881248
+Average CLC load: 0.845968110534
+addcount:1063 and remcount:1025
+
+
+Flow not satisfied : {'isGen': False, 'y': 2710.013815268957, 'p_flow': 3000000.0, 'l_flow': 0.0016705718784074224, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2800.271324157715, 'fremindex': None, 'duration': 49.007872959772655, 'x': 5887.544241694007, 'b_flow': 9526890.406939104, 'type': 'JSJB'}
+Reason: 2, t = 2801.05332208
+Time: 2801.05332208
+System Time Passed: 2800.27304912
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.33333333333, Average load: 0.701267427962
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32, 33]
+Flows satisfied: 41 out of 41
+Runtime: 0.00257301330566 seconds
+
+
+Reason: 3, t = 2814.02047427
+Time: 2814.02047427
+System Time Passed: 2813.12912917
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.16666666667, Average load: 0.81262674388
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32]
+Flows satisfied: 41 out of 41
+Runtime: 0.00156402587891 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1049.5954341199858, 'p_flow': 3000000.0, 'l_flow': 0.0027267922193246943, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2842.1618649959564, 'fremindex': None, 'duration': 96.19290665684116, 'x': 380.7688837185128, 'b_flow': 19689476.230053306, 'type': 'JP'}
+Reason: 2, t = 2842.97729974
+Time: 2842.97729974
+System Time Passed: 2842.16310596
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.27777777778, Average load: 0.702225136788
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32, 0]
+Flows satisfied: 42 out of 42
+Runtime: 0.00130605697632 seconds
+
+
+Reason: 3, t = 2868.26173018
+Time: 2868.26173018
+System Time Passed: 2867.28245401
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.30555555556, Average load: 0.837076015955
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32]
+Flows satisfied: 46 out of 46
+Runtime: 0.00150895118713 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3844.1356106139256, 'p_flow': 3000000.0, 'l_flow': 0.0022385160361982925, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2879.579658985138, 'fremindex': None, 'duration': 112.70391704621328, 'x': 1632.0194609953937, 'b_flow': 17239069.345012568, 'type': 'JP'}
+Reason: 2, t = 2880.00357529
+Time: 2880.00357529
+System Time Passed: 2879.58070302
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.61111111111, Average load: 0.789874212762
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32, 7]
+Flows satisfied: 51 out of 51
+Runtime: 0.00143098831177 seconds
+
+
+Reason: 3, t = 2890.96529682
+Time: 2890.96529682
+System Time Passed: 2889.49132514
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.63888888889, Average load: 0.942394476286
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32]
+Flows satisfied: 55 out of 55
+Runtime: 0.00155901908875 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1118.981701623447, 'p_flow': 3000000.0, 'l_flow': 0.0017398816681062725, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2890.966721057892, 'fremindex': None, 'duration': 42.87657638328839, 'x': 3662.095781904868, 'b_flow': 15038435.607938979, 'type': 'JP'}
+Reason: 2, t = 2891.23298985
+Time: 2891.23298985
+System Time Passed: 2890.96786499
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.75, Average load: 0.849853743248
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32, 18]
+Flows satisfied: 56 out of 56
+Runtime: 0.0022439956665 seconds
+
+
+Reason: 3, t = 2923.59254816
+Time: 2923.59254816
+System Time Passed: 2923.42139101
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.25, Average load: 0.856528156277
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32]
+Flows satisfied: 47 out of 47
+Runtime: 0.00238394737244 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4896.461529625814, 'p_flow': 3000000.0, 'l_flow': 0.0013942832481817367, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2941.756761074066, 'fremindex': None, 'duration': 88.50174227740199, 'x': 2182.6013786223207, 'b_flow': 5699678.340232428, 'type': 'JSJB'}
+Reason: 2, t = 2941.8168018
+Time: 2941.8168018
+System Time Passed: 2941.75784516
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.33333333333, Average load: 0.761840449765
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32, 16]
+Flows satisfied: 55 out of 55
+Runtime: 0.00148010253906 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2291.1819404270163, 'p_flow': 3000000.0, 'l_flow': 0.0042469530685299295, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 2984.8461530208588, 'fremindex': None, 'duration': 20.147124714547925, 'x': 1088.334561756547, 'b_flow': 9761779.703403711, 'type': 'JSJB'}
+Reason: 2, t = 2985.79354759
+Time: 2985.79354759
+System Time Passed: 2984.84723115
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.94444444444, Average load: 0.771199082654
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 29, 32, 16, 8]
+Flows satisfied: 55 out of 55
+Runtime: 0.00202107429504 seconds
+
+
+Reason: 3, t = 2999.11451888
+Time: 2999.11451888
+System Time Passed: 2996.59109616
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.27777777778, Average load: 0.842750315585
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 32, 16]
+Flows satisfied: 45 out of 45
+Runtime: 0.00283694267273 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1172.6919250630044, 'p_flow': 3000000.0, 'l_flow': 0.0010279247626018698, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3022.466927051544, 'fremindex': None, 'duration': 22.036339756458258, 'x': -200.8751737809332, 'b_flow': 15758388.82842943, 'type': 'JP'}
+Reason: 2, t = 3022.98018369
+Time: 3022.98018369
+System Time Passed: 3022.46776104
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.52777777778, Average load: 0.771544189241
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 32, 16, 6]
+Flows satisfied: 51 out of 51
+Runtime: 0.00166583061218 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1387.7248608173536, 'p_flow': 3000000.0, 'l_flow': 0.0014356702113377704, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3033.8224170207977, 'fremindex': None, 'duration': 438.3907679268125, 'x': -131.4491007080577, 'b_flow': 8154204.699614382, 'type': 'JSJB'}
+Reason: 2, t = 3033.48148526
+Time: 3033.48148526
+System Time Passed: 3033.8233211
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 3.13888888889, Average load: 0.813812689298
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 32, 16, 6, 0]
+Flows satisfied: 63 out of 63
+Runtime: 0.00181412696838 seconds
+
+
+Reason: 3, t = 3049.80778691
+Time: 3049.80778691
+System Time Passed: 3044.02842617
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.86111111111, Average load: 0.852594460602
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 32, 16, 6]
+Flows satisfied: 57 out of 57
+Runtime: 0.00171303749084 seconds
+
+
+Reason: 3, t = 3078.20092094
+Time: 3078.20092094
+System Time Passed: 3075.32516217
+State: Solved
+CRCs: 1, CLCs: 6 (out of 25 available), Control ratio: 2.44444444444, Average load: 0.887639373115
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6]
+Flows satisfied: 53 out of 53
+Runtime: 0.00288105010986 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1860.081645471258, 'p_flow': 3000000.0, 'l_flow': 0.0037470966043170973, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3081.08087015152, 'fremindex': None, 'duration': 31.003243942691512, 'x': 5680.9354054306805, 'b_flow': 7322384.5495583005, 'type': 'JSJB'}
+Reason: 2, t = 3081.63314581
+Time: 3081.63314581
+System Time Passed: 3081.08193707
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.63888888889, Average load: 0.798733848118
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 8]
+Flows satisfied: 56 out of 56
+Runtime: 0.00160002708435 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2906.9614284424288, 'p_flow': 3000000.0, 'l_flow': 0.0010319679560212775, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3101.91349196434, 'fremindex': None, 'duration': 30.275563866807147, 'x': 4396.992141995218, 'b_flow': 18129788.9302075, 'type': 'JP'}
+Reason: 2, t = 3103.71600642
+Time: 3103.71600642
+System Time Passed: 3101.91470218
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 3.0, Average load: 0.77500885897
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 8, 32]
+Flows satisfied: 58 out of 58
+Runtime: 0.00249004364014 seconds
+
+
+Reason: 3, t = 3116.05865608
+Time: 3116.05865608
+System Time Passed: 3114.80134606
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.75, Average load: 0.834496743314
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32]
+Flows satisfied: 55 out of 55
+Runtime: 0.0026638507843 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 150.15739526785842, 'p_flow': 3000000.0, 'l_flow': 0.004462067393881535, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3174.747852087021, 'fremindex': None, 'duration': 58.291721730797384, 'x': 4184.192277867501, 'b_flow': 19883517.657533403, 'type': 'JP'}
+Reason: 2, t = 3175.39083186
+Time: 3175.39083186
+System Time Passed: 3174.74886799
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.83333333333, Average load: 0.749366626514
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32, 18]
+Flows satisfied: 47 out of 47
+Runtime: 0.00167798995972 seconds
+
+
+Reason: 3, t = 3187.53846302
+Time: 3187.53846302
+System Time Passed: 3185.45863819
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.825139550482
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32]
+Flows satisfied: 47 out of 47
+Runtime: 0.00138306617737 seconds
+
+
+Time: 3247.92040605
+System Time Passed: 3246.47332907
+Flows satisfied: 59 out of 59
+Next flow removed at: 187.522881248
+Average CLC load: 0.946388270143
+addcount:1363 and remcount:1304
+
+
+Time: 3308.7883259
+System Time Passed: 3306.15429401
+Flows satisfied: 48 out of 48
+Next flow removed at: 187.522881248
+Average CLC load: 0.863258636446
+addcount:1392 and remcount:1344
+
+
+Flow not satisfied : {'isGen': False, 'y': 5352.976270662285, 'p_flow': 3000000.0, 'l_flow': 0.001547291231812621, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3316.4594070911407, 'fremindex': None, 'duration': 57.47191705595021, 'x': 1176.331901067646, 'b_flow': 17011427.93195421, 'type': 'JP'}
+Reason: 2, t = 3316.80174711
+Time: 3316.80174711
+System Time Passed: 3316.46061707
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.66666666667, Average load: 0.752853718126
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32, 5]
+Flows satisfied: 54 out of 54
+Runtime: 0.00190019607544 seconds
+
+
+Reason: 3, t = 3335.56902531
+Time: 3335.56902531
+System Time Passed: 3325.84509516
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.55555555556, Average load: 0.812209292293
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32]
+Flows satisfied: 47 out of 47
+Runtime: 0.00182199478149 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1236.0657606147452, 'p_flow': 3000000.0, 'l_flow': 0.004733954581639551, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3346.862768173218, 'fremindex': None, 'duration': 44.78469979048911, 'x': -482.02493947381515, 'b_flow': 15875442.065928359, 'type': 'JP'}
+Reason: 2, t = 3348.15495546
+Time: 3348.15495546
+System Time Passed: 3346.86385107
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.83333333333, Average load: 0.759820610608
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32, 0]
+Flows satisfied: 49 out of 49
+Runtime: 0.00154590606689 seconds
+
+
+Reason: 3, t = 3362.66601116
+Time: 3362.66601116
+System Time Passed: 3360.25527906
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.55555555556, Average load: 0.84883634395
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32]
+Flows satisfied: 51 out of 51
+Runtime: 0.00149083137512 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5441.344062709455, 'p_flow': 3000000.0, 'l_flow': 0.001257288799243808, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3370.798662185669, 'fremindex': None, 'duration': 183.79684913271984, 'x': 4398.421609531299, 'b_flow': 16514044.711549487, 'type': 'JP'}
+Reason: 2, t = 3371.51984002
+Time: 3371.51984002
+System Time Passed: 3370.79965401
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.83333333333, Average load: 0.803011298823
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32, 23]
+Flows satisfied: 57 out of 57
+Runtime: 0.00166702270508 seconds
+
+
+Reason: 3, t = 3390.25759698
+Time: 3390.25759698
+System Time Passed: 3385.56893897
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.780926480419
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32, 9]
+Flows satisfied: 54 out of 54
+Runtime: 0.00278401374817 seconds
+
+
+Reason: 3, t = 3415.82188685
+Time: 3415.82188685
+System Time Passed: 3411.85129499
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.38888888889, Average load: 0.810381108363
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 16, 6, 32]
+Flows satisfied: 47 out of 47
+Runtime: 0.00234603881836 seconds
+
+
+Reason: 3, t = 3434.20870863
+Time: 3434.20870863
+System Time Passed: 3420.86989808
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.36111111111, Average load: 0.766729057926
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 9]
+Flows satisfied: 42 out of 42
+Runtime: 0.00602579116821 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1780.042252114828, 'p_flow': 3000000.0, 'l_flow': 0.0030610481494644393, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3477.2285351753235, 'fremindex': None, 'duration': 81.3306248918158, 'x': 1675.0248785334115, 'b_flow': 6076175.009056863, 'type': 'JSJB'}
+Reason: 2, t = 3478.41691954
+Time: 3478.41691954
+System Time Passed: 3477.22964406
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.88888888889, Average load: 0.792051360045
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 9, 8]
+Flows satisfied: 56 out of 56
+Runtime: 0.00153708457947 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3761.9290558630237, 'p_flow': 3000000.0, 'l_flow': 0.0010172897261452461, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3523.6871349811554, 'fremindex': None, 'duration': 35.075533361446496, 'x': 1558.8911064453036, 'b_flow': 19540651.613318384, 'type': 'JP'}
+Reason: 2, t = 3524.06289671
+Time: 3524.06289671
+System Time Passed: 3523.68836498
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.33333333333, Average load: 0.814312041457
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 9, 8, 16]
+Flows satisfied: 66 out of 66
+Runtime: 0.00209903717041 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1067.4836400584027, 'p_flow': 3000000.0, 'l_flow': 0.001603788963539412, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3535.70095205307, 'fremindex': None, 'duration': 93.96106338639306, 'x': 5135.290780888115, 'b_flow': 19150773.26787033, 'type': 'JP'}
+Reason: 2, t = 3536.05641149
+Flow not satisfied : {'isGen': False, 'y': 1067.4836400584027, 'p_flow': 3000000.0, 'l_flow': 0.001603788963539412, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3535.70095205307, 'fremindex': 3630.0, 'duration': 93.96106338639306, 'x': 5135.290780888115, 'b_flow': 19150773.26787033, 'type': 'JP'}
+Time: 3536.05641149
+System Time Passed: 3535.70213318
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.72222222222, Average load: 0.864569485952
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 9, 8, 16]
+Flows satisfied: 71 out of 72
+Runtime: 0.00223398208618 seconds
+
+
+Reason: 3, t = 3572.79433415
+Time: 3572.79433415
+System Time Passed: 3567.30559516
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 3.02777777778, Average load: 0.817648258678
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 8, 15]
+Flows satisfied: 57 out of 57
+Runtime: 0.00843214988708 seconds
+
+
+Reason: 3, t = 3603.85287183
+Time: 3603.85287183
+System Time Passed: 3599.54465699
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.886299146501
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 15]
+Flows satisfied: 54 out of 54
+Runtime: 0.00415301322937 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3705.063982024838, 'p_flow': 3000000.0, 'l_flow': 0.001017145957931016, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3617.309411048889, 'fremindex': None, 'duration': 9.090542345815196, 'x': 3799.144450145851, 'b_flow': 15033874.424496356, 'type': 'JP'}
+Reason: 2, t = 3617.6954626
+Time: 3617.6954626
+System Time Passed: 3617.31059909
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.86111111111, Average load: 0.819655084757
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 15, 21]
+Flows satisfied: 56 out of 56
+Runtime: 0.00177383422852 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2562.9910300819733, 'p_flow': 3000000.0, 'l_flow': 0.001726373498945228, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3630.40642619133, 'fremindex': None, 'duration': 14.338697417847461, 'x': 3461.1022158888836, 'b_flow': 18539206.26420304, 'type': 'JP'}
+Reason: 2, t = 3631.31447636
+Flow not satisfied : {'isGen': False, 'y': 2562.9910300819733, 'p_flow': 3000000.0, 'l_flow': 0.001726373498945228, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3630.40642619133, 'fremindex': 3645.0, 'duration': 14.338697417847461, 'x': 3461.1022158888836, 'b_flow': 18539206.26420304, 'type': 'JP'}
+Time: 3631.31447636
+System Time Passed: 3630.40779305
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.808116339493
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 15, 21]
+Flows satisfied: 57 out of 58
+Runtime: 0.00266098976135 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1943.8955245991351, 'p_flow': 3000000.0, 'l_flow': 0.004094241612661492, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3633.244677066803, 'fremindex': None, 'duration': 68.28761663004286, 'x': 592.3934419561924, 'b_flow': 15147752.691479683, 'type': 'JP'}
+Reason: 2, t = 3635.59525441
+Flow not satisfied : {'isGen': False, 'y': 2562.9910300819733, 'p_flow': 3000000.0, 'l_flow': 0.001726373498945228, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3635.595254405524, 'fremindex': 3645.0, 'duration': 14.338697417847461, 'x': 3461.1022158888836, 'b_flow': 18539206.26420304, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1943.8955245991351, 'p_flow': 3000000.0, 'l_flow': 0.004094241612661492, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3633.244677066803, 'fremindex': 3702.0, 'duration': 68.28761663004286, 'x': 592.3934419561924, 'b_flow': 15147752.691479683, 'type': 'JP'}
+Time: 3635.59525441
+System Time Passed: 3633.2467401
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.795222166845
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 15, 21]
+Flows satisfied: 56 out of 58
+Runtime: 0.00484704971313 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5308.4655144385, 'p_flow': 3000000.0, 'l_flow': 0.0010017933067516633, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3659.529559135437, 'fremindex': None, 'duration': 2.4359239888973, 'x': -292.35512537965417, 'b_flow': 18983560.95687274, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494596435.08 t:3664.49407835 iperfend:2.4359239889
+Reason: 2, t = 3695.93228576
+Time: 3695.93228576
+System Time Passed: 3691.1306591
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.785580351532
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 15, 21]
+Flows satisfied: 51 out of 51
+Runtime: 0.0015549659729 seconds
+
+
+Reason: 3, t = 3707.47861869
+Time: 3707.47861869
+System Time Passed: 3706.798877
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.90054880494
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21]
+Flows satisfied: 54 out of 54
+Runtime: 0.00345206260681 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4339.588360844256, 'p_flow': 3000000.0, 'l_flow': 0.004081394735460738, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3718.1436669826508, 'fremindex': None, 'duration': 58.5842399774685, 'x': 5245.141873847111, 'b_flow': 18326388.093146093, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3235.644321852603, 'p_flow': 3000000.0, 'l_flow': 0.002124235527436266, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3720.7279200553894, 'fremindex': None, 'duration': 5.438851639574026, 'x': 1833.8996877104669, 'b_flow': 18169739.136204716, 'type': 'JP'}
+Reason: 2, t = 3723.00570356
+Time: 3723.00570356
+System Time Passed: 3720.72912216
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.91666666667, Average load: 0.817665292103
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 8]
+Flows satisfied: 56 out of 56
+Runtime: 0.00127410888672 seconds
+
+
+Reason: 3, t = 3735.83942051
+Time: 3735.83942051
+System Time Passed: 3731.29180598
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.83333333333, Average load: 0.915838841625
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21]
+Flows satisfied: 58 out of 58
+Runtime: 0.00125598907471 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1721.9278546560267, 'p_flow': 3000000.0, 'l_flow': 0.0012878912890409086, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3745.8901131153107, 'fremindex': None, 'duration': 15.987439258099576, 'x': 4017.9575100119255, 'b_flow': 5642429.677871234, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 3779.1484633203863, 'p_flow': 3000000.0, 'l_flow': 0.001224395704561684, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3746.6692790985107, 'fremindex': None, 'duration': 5.286551544366088, 'x': 2244.8277073923186, 'b_flow': 18705676.01997835, 'type': 'JP'}
+Reason: 2, t = 3747.17079226
+Time: 3747.17079226
+System Time Passed: 3746.67035007
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.94444444444, Average load: 0.851786969795
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 9]
+Flows satisfied: 64 out of 64
+Runtime: 0.00258684158325 seconds
+
+
+Reason: 3, t = 3777.8820769
+Time: 3777.8820769
+System Time Passed: 3770.01100898
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.61111111111, Average load: 0.881199918335
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21]
+Flows satisfied: 54 out of 54
+Runtime: 0.0010449886322 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1144.7044982034054, 'p_flow': 3000000.0, 'l_flow': 0.003004114275018309, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3789.9043459892273, 'fremindex': None, 'duration': 12.034292974872313, 'x': 4640.091210788324, 'b_flow': 17869822.11151076, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 209.08145591106677, 'p_flow': 2000000.0, 'l_flow': 0.0015407930464656663, 'genstime': 0, 'CLC': None, 'connections': 2, 'isSat': False, 'stime': 3794.0462980270386, 'fremindex': None, 'duration': 70.06186069758192, 'x': 5273.156480243107, 'b_flow': 16713134.956145748, 'type': 'JP'}
+Reason: 2, t = 3794.39458709
+Time: 3794.39458709
+System Time Passed: 3794.04714012
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.86111111111, Average load: 0.824875625069
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 30]
+Flows satisfied: 58 out of 58
+Runtime: 0.00210309028625 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 444.48921037081163, 'p_flow': 3000000.0, 'l_flow': 0.001678705841862508, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3823.115879058838, 'fremindex': None, 'duration': 119.37757101959225, 'x': -406.3501251464684, 'b_flow': 15011579.95204901, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -247.03407916364029, 'p_flow': 3000000.0, 'l_flow': 0.0030140355399984773, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3824.0322701931, 'fremindex': None, 'duration': 41.551575046329965, 'x': -581.8476952588085, 'b_flow': 19572715.63912025, 'type': 'JP'}
+Reason: 2, t = 3824.43837934
+Time: 3824.43837934
+System Time Passed: 3824.03395605
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.16666666667, Average load: 0.7878643755
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 30, 0]
+Flows satisfied: 60 out of 60
+Runtime: 0.00368499755859 seconds
+
+
+Reason: 3, t = 3836.90615639
+Time: 3836.90615639
+System Time Passed: 3832.34789896
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 3.19444444444, Average load: 0.884967797597
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 30]
+Flows satisfied: 59 out of 59
+Runtime: 0.00306510925293 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1600.0067195757324, 'p_flow': 3000000.0, 'l_flow': 0.003842438457570999, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3853.0501601696014, 'fremindex': None, 'duration': 22.327788366929823, 'x': 5906.080556355628, 'b_flow': 8661250.353360737, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 4497.5495716929045, 'p_flow': 3000000.0, 'l_flow': 0.0010078164864075476, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3853.086133003235, 'fremindex': None, 'duration': 45.17240173688781, 'x': 4163.117455155048, 'b_flow': 19581044.241955467, 'type': 'JP'}
+Reason: 2, t = 3855.81736959
+Time: 3855.81736959
+System Time Passed: 3853.08714008
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.38888888889, Average load: 0.832211547877
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 30, 23]
+Flows satisfied: 61 out of 61
+Runtime: 0.00171899795532 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': -192.51584059421634, 'p_flow': 3000000.0, 'l_flow': 0.004160556468767314, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3866.88876414299, 'fremindex': None, 'duration': 110.5892891733524, 'x': 3304.860067332751, 'b_flow': 16824646.270030864, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -527.0145712851102, 'p_flow': 3000000.0, 'l_flow': 0.001024541861463312, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3876.913815021515, 'fremindex': None, 'duration': 71.61972230233259, 'x': 4615.03185072359, 'b_flow': 18681954.639442407, 'type': 'JP'}
+Reason: 2, t = 3877.16365506
+Flow not satisfied : {'isGen': False, 'y': -527.0145712851102, 'p_flow': 3000000.0, 'l_flow': 0.001024541861463312, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3876.913815021515, 'fremindex': 3949.0, 'duration': 71.61972230233259, 'x': 4615.03185072359, 'b_flow': 18681954.639442407, 'type': 'JP'}
+Time: 3877.16365506
+System Time Passed: 3876.91514802
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.25, Average load: 0.73506332637
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 30, 23, 18]
+Flows satisfied: 59 out of 60
+Runtime: 0.00405788421631 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2485.0420831001184, 'p_flow': 3000000.0, 'l_flow': 0.004412114590734335, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3881.847426176071, 'fremindex': None, 'duration': 3.3680244088493216, 'x': 3053.1908622269007, 'b_flow': 19323699.527776092, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494596657.0 t:3886.90092211 iperfend:3.36802440885
+Flow not satisfied : {'isGen': False, 'y': 1485.7875232029514, 'p_flow': 3000000.0, 'l_flow': 0.0034701479408709135, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3888.3653111457825, 'fremindex': None, 'duration': 27.66151614594575, 'x': 4308.881530720345, 'b_flow': 18651003.5100911, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 686.8321369912755, 'p_flow': 3000000.0, 'l_flow': 0.0017599739801769402, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3894.3182439804077, 'fremindex': None, 'duration': 29.633858070404177, 'x': 3043.6472455209296, 'b_flow': 8920868.185550531, 'type': 'JSJB'}
+Reason: 2, t = 3894.71112708
+Flow not satisfied : {'isGen': False, 'y': -527.0145712851102, 'p_flow': 3000000.0, 'l_flow': 0.001024541861463312, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3894.7111270830983, 'fremindex': 3949.0, 'duration': 71.61972230233259, 'x': 4615.03185072359, 'b_flow': 18681954.639442407, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1485.7875232029514, 'p_flow': 3000000.0, 'l_flow': 0.0034701479408709135, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3888.3653111457825, 'fremindex': 3917.0, 'duration': 27.66151614594575, 'x': 4308.881530720345, 'b_flow': 18651003.5100911, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 686.8321369912755, 'p_flow': 3000000.0, 'l_flow': 0.0017599739801769402, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3894.3182439804077, 'fremindex': 3924.0, 'duration': 29.633858070404177, 'x': 3043.6472455209296, 'b_flow': 8920868.185550531, 'type': 'JSJB'}
+Time: 3894.71112708
+System Time Passed: 3894.31942797
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.66666666667, Average load: 0.794943928031
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 30, 23, 18]
+Flows satisfied: 68 out of 71
+Runtime: 0.0043089389801 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': -26.216839188608787, 'p_flow': 3000000.0, 'l_flow': 0.0015705727967560276, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3900.7848269939423, 'fremindex': None, 'duration': 30.590612603727777, 'x': 3552.3676112357543, 'b_flow': 9552134.911876107, 'type': 'JSJB'}
+Reason: 3, t = 3906.04705685
+Flow not satisfied : {'isGen': False, 'y': 1485.7875232029514, 'p_flow': 3000000.0, 'l_flow': 0.0034701479408709135, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3906.047056849252, 'fremindex': 3917.0, 'duration': 27.66151614594575, 'x': 4308.881530720345, 'b_flow': 18651003.5100911, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 686.8321369912755, 'p_flow': 3000000.0, 'l_flow': 0.0017599739801769402, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3906.047056849252, 'fremindex': 3924.0, 'duration': 29.633858070404177, 'x': 3043.6472455209296, 'b_flow': 8920868.185550531, 'type': 'JSJB'}
+Time: 3906.04705685
+System Time Passed: 3901.80386996
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.25, Average load: 0.79899628644
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 30, 23]
+Flows satisfied: 62 out of 64
+Runtime: 0.00717711448669 seconds
+
+
+Second elif :2: isSat:False isGen:False tt1:1494596689.13 t:3916.66441494 iperfend:27.6615161459
+Flow not satisfied : {'isGen': False, 'y': 118.19863806688113, 'p_flow': 3000000.0, 'l_flow': 0.0014959880507995251, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3917.248404979706, 'fremindex': None, 'duration': 28.630847023035376, 'x': 3559.573784646226, 'b_flow': 16822786.46056175, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494596695.41 t:3923.24864176 iperfend:29.6338580704
+Flow not satisfied : {'isGen': False, 'y': -467.597791420773, 'p_flow': 3000000.0, 'l_flow': 0.00211202705208494, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3930.2181611061096, 'fremindex': None, 'duration': 6.279341758382595, 'x': 3314.8591621434316, 'b_flow': 16075553.919705503, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494596707.45 t:3937.21834565 iperfend:6.27934175838
+First elif :1:isSat:False isGen:False tt1:1494596719.21 t:3946.55134348 iperfend:28.630847023
+Flow not satisfied : {'isGen': False, 'y': 1600.4302317396146, 'p_flow': 3000000.0, 'l_flow': 0.0027568709653292413, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3950.1939911842346, 'fremindex': None, 'duration': 90.9396320056196, 'x': -740.5950475351044, 'b_flow': 7115068.010611825, 'type': 'JSJB'}
+Reason: 3, t = 3958.03515892
+Time: 3958.03515892
+System Time Passed: 3954.72146201
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.88888888889, Average load: 0.83502367313
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 23]
+Flows satisfied: 59 out of 59
+Runtime: 0.00429391860962 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': -162.04609439948524, 'p_flow': 3000000.0, 'l_flow': 0.0017282585379343831, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3958.7345180511475, 'fremindex': None, 'duration': 70.17167426832033, 'x': 484.39744440449226, 'b_flow': 17164464.563297153, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 4304.369592478913, 'p_flow': 3000000.0, 'l_flow': 0.0038256491445908926, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3973.282690048218, 'fremindex': None, 'duration': 44.031334714818215, 'x': -730.5717761149278, 'b_flow': 15503585.586166464, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2247.0010962940005, 'p_flow': 3000000.0, 'l_flow': 0.0010796375199715192, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3973.963021993637, 'fremindex': None, 'duration': 79.30741449852641, 'x': 2240.475973051115, 'b_flow': 18201737.357707873, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 4014.052409286327, 'p_flow': 3000000.0, 'l_flow': 0.0023010696091272376, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3975.0701220035553, 'fremindex': None, 'duration': 10.462664455867637, 'x': 4704.8400781224655, 'b_flow': 6120670.824342314, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2387.419822950912, 'p_flow': 3000000.0, 'l_flow': 0.002749807318116187, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3976.0921170711517, 'fremindex': None, 'duration': 15.272600551786432, 'x': 1333.993074759932, 'b_flow': 16272291.588439908, 'type': 'JP'}
+Reason: 2, t = 3976.21334009
+Flow not satisfied : {'isGen': False, 'y': -162.04609439948524, 'p_flow': 3000000.0, 'l_flow': 0.0017282585379343831, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 3958.7345180511475, 'fremindex': 4029.0, 'duration': 70.17167426832033, 'x': 484.39744440449226, 'b_flow': 17164464.563297153, 'type': 'JP'}
+Time: 3976.21334009
+System Time Passed: 3976.09313011
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.27777777778, Average load: 0.824379166133
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 23, 15]
+Flows satisfied: 67 out of 68
+Runtime: 0.00360202789307 seconds
+
+
+Reason: 3, t = 3986.37315545
+Time: 3986.37315545
+System Time Passed: 3985.07404399
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 3.11111111111, Average load: 0.903240075442
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 23]
+Flows satisfied: 66 out of 66
+Runtime: 0.0032799243927 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1483.4544995206616, 'p_flow': 3000000.0, 'l_flow': 0.004350474606330214, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4019.9805011749268, 'fremindex': None, 'duration': 11.943284645892096, 'x': 4179.410991985839, 'b_flow': 15019602.874158101, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -897.5966694581253, 'p_flow': 3000000.0, 'l_flow': 0.0010124674879669713, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4021.593765974045, 'fremindex': None, 'duration': 101.94376172482093, 'x': 5950.521258448682, 'b_flow': 9857307.200177409, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 5958.834376573435, 'p_flow': 3000000.0, 'l_flow': 0.0028133797539767417, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4024.707715034485, 'fremindex': None, 'duration': 9.55354212842181, 'x': 145.94898086037733, 'b_flow': 9509193.231173169, 'type': 'JSJB'}
+Second elif :2: isSat:False isGen:False tt1:1494596798.82 t:4031.18618026 iperfend:11.9432846459
+First elif :1:isSat:False isGen:False tt1:1494596818.85 t:4045.96506082 iperfend:9.55354212842
+Reason: 2, t = 4046.72931905
+Time: 4046.72931905
+System Time Passed: 4046.00671601
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.72222222222, Average load: 0.81315406144
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 23]
+Flows satisfied: 49 out of 49
+Runtime: 0.00251293182373 seconds
+
+
+Reason: 2, t = 4112.68206154
+Time: 4112.68206154
+System Time Passed: 4111.6275661
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.88888888889, Average load: 0.873852513799
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 23]
+Flows satisfied: 53 out of 53
+Runtime: 0.00164222717285 seconds
+
+
+Reason: 2, t = 4173.69303052
+Time: 4173.69303052
+System Time Passed: 4170.69730806
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.77777777778, Average load: 0.857346689289
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 23]
+Flows satisfied: 52 out of 52
+Runtime: 0.00171589851379 seconds
+
+
+Reason: 3, t = 4230.36999793
+Time: 4230.36999793
+System Time Passed: 4225.69218516
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.36111111111, Average load: 0.848930420303
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21]
+Flows satisfied: 42 out of 42
+Runtime: 0.00386810302734 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5620.071793858662, 'p_flow': 3000000.0, 'l_flow': 0.0026154464025223154, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4272.629765987396, 'fremindex': None, 'duration': 144.1477628590731, 'x': 2456.6479198875136, 'b_flow': 8279851.502147445, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2168.318301468382, 'p_flow': 3000000.0, 'l_flow': 0.001638003513287755, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4275.99907708168, 'fremindex': None, 'duration': 16.737382917977985, 'x': 3359.5181668034747, 'b_flow': 16293491.201642292, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3394.8025254769573, 'p_flow': 3000000.0, 'l_flow': 0.004295783592973612, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4276.149080038071, 'fremindex': None, 'duration': 5.6704249125100885, 'x': 3301.349840927829, 'b_flow': 19487347.635004863, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494597051.19 t:4282.16971203 iperfend:5.67042491251
+Flow not satisfied : {'isGen': False, 'y': -22.413419484554538, 'p_flow': 3000000.0, 'l_flow': 0.0014702139239899915, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4277.66490316391, 'fremindex': None, 'duration': 1.586498344443949, 'x': 883.3533511991459, 'b_flow': 5615072.064566021, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1921.7540969332513, 'p_flow': 3000000.0, 'l_flow': 0.002573012702266236, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4282.174329042435, 'fremindex': None, 'duration': 170.76276041768108, 'x': 4059.2484535823032, 'b_flow': 18745839.649580326, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 350.4963333930343, 'p_flow': 3000000.0, 'l_flow': 0.0018118607485409952, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4282.236742019653, 'fremindex': None, 'duration': 9.866346518036956, 'x': 559.6619020335968, 'b_flow': 7972820.805056459, 'type': 'JSJB'}
+Reason: 2, t = 4282.39342559
+Time: 4282.39342559
+System Time Passed: 4282.23815298
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.86111111111, Average load: 0.837615656074
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 7]
+Flows satisfied: 49 out of 49
+Runtime: 0.00364589691162 seconds
+
+
+Reason: 2, t = 4344.61493407
+Time: 4344.61493407
+System Time Passed: 4344.24009705
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.5, Average load: 0.757610600543
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 21, 7]
+Flows satisfied: 43 out of 43
+Runtime: 0.00202894210815 seconds
+
+
+Reason: 3, t = 4361.47286141
+Time: 4361.47286141
+System Time Passed: 4360.39748311
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.52777777778, Average load: 0.843364670654
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 7]
+Flows satisfied: 43 out of 43
+Runtime: 0.00241804122925 seconds
+
+
+Reason: 2, t = 4428.19408182
+Time: 4428.19408182
+System Time Passed: 4427.01186609
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.47222222222, Average load: 0.844408923293
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 7]
+Flows satisfied: 41 out of 41
+Runtime: 0.00144982337952 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4545.088230187596, 'p_flow': 3000000.0, 'l_flow': 0.0016634590176378096, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4484.562155008316, 'fremindex': None, 'duration': 12.388165172328398, 'x': 3568.820654763851, 'b_flow': 19627348.122840304, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494597269.45 t:4499.14329664 iperfend:12.3881651723
+Reason: 2, t = 4499.14329664
+Time: 4499.14329664
+System Time Passed: 4495.95941997
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.52777777778, Average load: 0.856055567774
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 7]
+Flows satisfied: 42 out of 42
+Runtime: 0.00180196762085 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5046.231398932857, 'p_flow': 3000000.0, 'l_flow': 0.0014108000868894668, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4513.169130086899, 'fremindex': None, 'duration': 47.71628473254692, 'x': 3790.2812968357794, 'b_flow': 17465763.041933406, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3977.7110168470635, 'p_flow': 3000000.0, 'l_flow': 0.0022464516955912305, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4516.701914072037, 'fremindex': None, 'duration': 6.590317733333233, 'x': -829.5542420365821, 'b_flow': 9257078.077818643, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 3041.22944723287, 'p_flow': 3000000.0, 'l_flow': 0.0023856174071312753, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4519.96110200882, 'fremindex': None, 'duration': 92.42743485062161, 'x': 1703.8666469661894, 'b_flow': 7954130.989402064, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 5108.038780391791, 'p_flow': 2000000.0, 'l_flow': 0.004171959595947891, 'genstime': 0, 'CLC': None, 'connections': 2, 'isSat': False, 'stime': 4520.482599973679, 'fremindex': None, 'duration': 6.407030271522704, 'x': 5465.032111240732, 'b_flow': 5945984.742554188, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494597297.77 t:4525.25614452 iperfend:6.59031773333
+Second elif :2: isSat:False isGen:False tt1:1494597298.78 t:4526.27678848 iperfend:6.40703027152
+Flow not satisfied : {'isGen': False, 'y': 3329.3401707819103, 'p_flow': 3000000.0, 'l_flow': 0.0014951231758832608, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4533.636399030685, 'fremindex': None, 'duration': 47.27321647677364, 'x': 4322.843807128775, 'b_flow': 9195663.642906126, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 3581.7552918589763, 'p_flow': 3000000.0, 'l_flow': 0.0048064805926644055, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4536.5004529953, 'fremindex': None, 'duration': 91.35652867039694, 'x': -62.43179273867952, 'b_flow': 15500675.315111404, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 5076.501231091856, 'p_flow': 3000000.0, 'l_flow': 0.0017916746443585377, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4544.77721619606, 'fremindex': None, 'duration': 142.9138731450867, 'x': 3302.121425979006, 'b_flow': 16105571.909496473, 'type': 'JP'}
+Reason: 2, t = 4546.83531558
+Time: 4546.83531558
+System Time Passed: 4544.77886009
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.94444444444, Average load: 0.85150362407
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 7, 23]
+Flows satisfied: 49 out of 49
+Runtime: 0.00483179092407 seconds
+
+
+Reason: 3, t = 4617.43094913
+Time: 4617.43094913
+System Time Passed: 4614.14488101
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.55555555556, Average load: 0.886116306212
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 45 out of 45
+Runtime: 0.00410199165344 seconds
+
+
+Reason: 2, t = 4679.73511335
+Time: 4679.73511335
+System Time Passed: 4676.97791409
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.5, Average load: 0.877409763061
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 45 out of 45
+Runtime: 0.0018298625946 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5722.727461402108, 'p_flow': 3000000.0, 'l_flow': 0.0010428357026590809, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4693.132414102554, 'fremindex': None, 'duration': 76.57992856042436, 'x': 3214.2791048613917, 'b_flow': 16021320.23553151, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 5470.742862189016, 'p_flow': 3000000.0, 'l_flow': 0.004150721697850834, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4693.364334106445, 'fremindex': None, 'duration': 43.24729555215577, 'x': 2945.286589628377, 'b_flow': 18539006.606569108, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3857.2964898559794, 'p_flow': 3000000.0, 'l_flow': 0.0010339124860971327, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4701.487158060074, 'fremindex': None, 'duration': 41.55675657647833, 'x': 5979.376845965253, 'b_flow': 16430541.101263344, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 393.34668184345765, 'p_flow': 3000000.0, 'l_flow': 0.002047223911242616, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4730.25089097023, 'fremindex': None, 'duration': 79.61716064877047, 'x': 2845.2386085958015, 'b_flow': 9850618.44140206, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1372.2868781651582, 'p_flow': 3000000.0, 'l_flow': 0.0018320279523910332, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4732.242484092712, 'fremindex': None, 'duration': 77.34433375445327, 'x': 1097.641984396555, 'b_flow': 9364614.802739885, 'type': 'JSJB'}
+Reason: 2, t = 4732.91460051
+Time: 4732.91460051
+System Time Passed: 4732.24346614
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.88888888889, Average load: 0.848168824254
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 33]
+Flows satisfied: 51 out of 51
+Runtime: 0.00170111656189 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1575.7447283680235, 'p_flow': 3000000.0, 'l_flow': 0.0035880796900055454, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4768.392374992371, 'fremindex': None, 'duration': 114.60921131511434, 'x': 327.17702551178263, 'b_flow': 9189561.141271412, 'type': 'JSJB'}
+Reason: 2, t = 4794.35619544
+Time: 4794.35619544
+System Time Passed: 4792.694134
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.88888888889, Average load: 0.862441784679
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 33]
+Flows satisfied: 49 out of 49
+Runtime: 0.00165390968323 seconds
+
+
+Reason: 3, t = 4823.12522983
+Time: 4823.12522983
+System Time Passed: 4817.82267308
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.5, Average load: 0.905110442695
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 48 out of 48
+Runtime: 0.00150394439697 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3958.5621134609237, 'p_flow': 3000000.0, 'l_flow': 0.0018672725347230843, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4858.272619962692, 'fremindex': None, 'duration': 4.3434058267254265, 'x': 4360.988408326311, 'b_flow': 15939459.014756475, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 4490.628641080757, 'p_flow': 3000000.0, 'l_flow': 0.0018538993933576884, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4859.531985044479, 'fremindex': None, 'duration': 49.05679129074515, 'x': 3861.8179110497604, 'b_flow': 18393759.729680717, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494597633.42 t:4862.97781356 iperfend:4.34340582673
+Reason: 2, t = 4887.14730954
+Time: 4887.14730954
+System Time Passed: 4883.50815606
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.5, Average load: 0.898650266193
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 47 out of 47
+Runtime: 0.00192880630493 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 884.7289431218696, 'p_flow': 3000000.0, 'l_flow': 0.003367398173956923, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 4954.637797117233, 'fremindex': None, 'duration': 189.94670668814163, 'x': 3261.4423931957217, 'b_flow': 16089876.030360987, 'type': 'JP'}
+Reason: 2, t = 4955.57649778
+Time: 4955.57649778
+System Time Passed: 4954.63895798
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.55555555556, Average load: 0.808022999083
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 18]
+Flows satisfied: 45 out of 45
+Runtime: 0.00160694122314 seconds
+
+
+Reason: 3, t = 4973.66568237
+Time: 4973.66568237
+System Time Passed: 4970.19357204
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.41666666667, Average load: 0.873210815681
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 44 out of 44
+Runtime: 0.00177407264709 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2602.234838160806, 'p_flow': 3000000.0, 'l_flow': 0.0030712114297831, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5036.990362167358, 'fremindex': None, 'duration': 4.732850300285401, 'x': 3099.236949483353, 'b_flow': 16424337.975406755, 'type': 'JP'}
+Reason: 2, t = 5037.85832046
+Time: 5037.85832046
+System Time Passed: 5036.99217415
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.66666666667, Average load: 0.828057004197
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 21]
+Flows satisfied: 45 out of 45
+Runtime: 0.00205707550049 seconds
+
+
+Reason: 3, t = 5058.75976609
+Time: 5058.75976609
+System Time Passed: 5057.81933308
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.52777777778, Average load: 0.898080837127
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 45 out of 45
+Runtime: 0.0011031627655 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2501.9229133902277, 'p_flow': 3000000.0, 'l_flow': 0.001395169576371655, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5084.574427127838, 'fremindex': None, 'duration': 27.544121854747505, 'x': 3419.618747640331, 'b_flow': 9160181.712707013, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2888.9874583633136, 'p_flow': 3000000.0, 'l_flow': 0.0016609458080710086, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5085.392534017563, 'fremindex': None, 'duration': 92.33039317833638, 'x': 4098.5366298356275, 'b_flow': 18563603.715551686, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1225.4396565308498, 'p_flow': 3000000.0, 'l_flow': 0.0016299609089293523, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5090.548127174377, 'fremindex': None, 'duration': 7.490966341412837, 'x': 5333.922057985089, 'b_flow': 6204122.195206199, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': -901.9140857412401, 'p_flow': 3000000.0, 'l_flow': 0.0017399053597642817, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5091.544247150421, 'fremindex': None, 'duration': 95.52405606260761, 'x': 2465.9278388847347, 'b_flow': 5032618.50911355, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 727.9385160254246, 'p_flow': 3000000.0, 'l_flow': 0.0034736973492569155, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5093.336058139801, 'fremindex': None, 'duration': 10.13318862462493, 'x': -587.1032165036319, 'b_flow': 16992502.511067953, 'type': 'JP'}
+Reason: 2, t = 5094.07333422
+Time: 5094.07333422
+System Time Passed: 5093.33742499
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.94444444444, Average load: 0.870537829315
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 0]
+Flows satisfied: 53 out of 53
+Runtime: 0.00359797477722 seconds
+
+
+Reason: 2, t = 5155.49849474
+Time: 5155.49849474
+System Time Passed: 5151.46085
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.88888888889, Average load: 0.855254331285
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 0]
+Flows satisfied: 50 out of 50
+Runtime: 0.00133299827576 seconds
+
+
+Reason: 3, t = 5224.47205085
+Time: 5224.47205085
+System Time Passed: 5218.91830301
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.47222222222, Average load: 0.891647076249
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 45 out of 45
+Runtime: 0.00202107429504 seconds
+
+
+Reason: 2, t = 5285.48937903
+Time: 5285.48937903
+System Time Passed: 5283.84496307
+State: Solved
+CRCs: 1, CLCs: 7 (out of 25 available), Control ratio: 2.47222222222, Average load: 0.91445113073
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23]
+Flows satisfied: 47 out of 47
+Runtime: 0.0016508102417 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3021.130384108563, 'p_flow': 3000000.0, 'l_flow': 0.0016802721229092943, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5308.912304162979, 'fremindex': None, 'duration': 127.42816532212815, 'x': 2550.5357620304417, 'b_flow': 15286402.739244701, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -214.98360158046626, 'p_flow': 3000000.0, 'l_flow': 0.0016625031729354989, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5310.508618116379, 'fremindex': None, 'duration': 154.78102473669455, 'x': 2370.758172192261, 'b_flow': 15670258.645911992, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2845.7982362008765, 'p_flow': 3000000.0, 'l_flow': 0.003516310619849863, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5314.780759096146, 'fremindex': None, 'duration': 173.91017835979406, 'x': 4476.2636030284775, 'b_flow': 16993860.606953423, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2733.71513670737, 'p_flow': 3000000.0, 'l_flow': 0.0016161633740359252, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5317.660531997681, 'fremindex': None, 'duration': 15.050887050472038, 'x': 1179.7350771484776, 'b_flow': 9064471.636994705, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2990.173975388911, 'p_flow': 3000000.0, 'l_flow': 0.0016481426292335355, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5330.953595161438, 'fremindex': None, 'duration': 92.06174059561778, 'x': -126.00735623837613, 'b_flow': 5878458.548552191, 'type': 'JSJB'}
+Reason: 2, t = 5331.47842473
+Time: 5331.47842473
+System Time Passed: 5330.95487714
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.83333333333, Average load: 0.861178714449
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 12]
+Flows satisfied: 49 out of 49
+Runtime: 0.00457215309143 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3160.5037082056306, 'p_flow': 3000000.0, 'l_flow': 0.002839345106117864, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5368.1049880981445, 'fremindex': None, 'duration': 3.582015658315633, 'x': 4846.225334352847, 'b_flow': 8846469.026529897, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494598142.74 t:5373.09446656 iperfend:3.58201565832
+Flow not satisfied : {'isGen': False, 'y': 1004.3001999800631, 'p_flow': 3000000.0, 'l_flow': 0.004017523396889839, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5378.673175096512, 'fremindex': None, 'duration': 163.08709458467087, 'x': 454.54504867604965, 'b_flow': 5870466.144762452, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 757.642293316354, 'p_flow': 3000000.0, 'l_flow': 0.0035525248110560106, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5384.255033969879, 'fremindex': None, 'duration': 57.54097119056291, 'x': 5125.053403438339, 'b_flow': 6696739.0980476905, 'type': 'JSJB'}
+Reason: 2, t = 5392.73672335
+Time: 5392.73672335
+System Time Passed: 5392.61612415
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.91666666667, Average load: 0.881455596437
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 12]
+Flows satisfied: 53 out of 53
+Runtime: 0.00328803062439 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2417.1184490482447, 'p_flow': 3000000.0, 'l_flow': 0.0010345742317667166, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5427.729207992554, 'fremindex': None, 'duration': 6.423881208940202, 'x': 610.4012451536239, 'b_flow': 8808798.699017322, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494598201.82 t:5436.09258653 iperfend:6.42388120894
+Flow not satisfied : {'isGen': False, 'y': 1541.0579012961189, 'p_flow': 3000000.0, 'l_flow': 0.0047252820129237445, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5443.618859052658, 'fremindex': None, 'duration': 16.990126611448737, 'x': 4870.419139426365, 'b_flow': 16893792.814687017, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 5114.084722072264, 'p_flow': 3000000.0, 'l_flow': 0.003414169221089127, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5448.967483997345, 'fremindex': None, 'duration': 140.6070048605394, 'x': 3029.6990906867322, 'b_flow': 7174278.123448037, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 4133.089796581435, 'p_flow': 3000000.0, 'l_flow': 0.0016811925540150927, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5449.19997215271, 'fremindex': None, 'duration': 13.263270203228663, 'x': 2393.230068844225, 'b_flow': 16374849.695436917, 'type': 'JP'}
+Reason: 2, t = 5458.50160876
+Time: 5458.50160876
+System Time Passed: 5458.01192999
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.08333333333, Average load: 0.838997386659
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 12, 16]
+Flows satisfied: 56 out of 56
+Runtime: 0.00449299812317 seconds
+
+
+Reason: 3, t = 5516.85293217
+Time: 5516.85293217
+System Time Passed: 5514.63926411
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.75, Average load: 0.878219248245
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16]
+Flows satisfied: 54 out of 54
+Runtime: 0.00254607200623 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': -686.3595537711037, 'p_flow': 3000000.0, 'l_flow': 0.0032476441584479757, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5538.4275369644165, 'fremindex': None, 'duration': 118.22494967986941, 'x': 645.4357616377281, 'b_flow': 9516949.91961921, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': -587.4860357179609, 'p_flow': 3000000.0, 'l_flow': 0.0034953470225391504, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5541.528197050095, 'fremindex': None, 'duration': 7.714233100033327, 'x': 5806.046783677227, 'b_flow': 18158902.27427266, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 836.7192958012349, 'p_flow': 3000000.0, 'l_flow': 0.0014484137731406736, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5541.780402183533, 'fremindex': None, 'duration': 3.350428854368774, 'x': 5325.991645617346, 'b_flow': 18764167.34003959, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494598317.15 t:5545.05907228 iperfend:3.35042885437
+Flow not satisfied : {'isGen': False, 'y': 872.3680724887138, 'p_flow': 3000000.0, 'l_flow': 0.003022510634619401, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5545.059681177139, 'fremindex': None, 'duration': 39.526774739979246, 'x': 4579.0759789421, 'b_flow': 7441561.42902674, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': -252.17526606010188, 'p_flow': 3000000.0, 'l_flow': 0.004021520716466668, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5547.8248200416565, 'fremindex': None, 'duration': 11.682611548004145, 'x': -92.82986459716312, 'b_flow': 5475262.255104322, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494598324.93 t:5551.73020211 iperfend:7.71423310003
+Second elif :2: isSat:False isGen:False tt1:1494598329.96 t:5559.94451541 iperfend:11.682611548
+Flow not satisfied : {'isGen': False, 'y': 4966.932001841587, 'p_flow': 3000000.0, 'l_flow': 0.00246857173645763, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5562.900851964951, 'fremindex': None, 'duration': 109.90399845056295, 'x': 5214.633515047812, 'b_flow': 15247369.712559259, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3806.139355825989, 'p_flow': 3000000.0, 'l_flow': 0.0012397042509873818, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5564.185820102692, 'fremindex': None, 'duration': 70.18389505101455, 'x': 3854.4386354381522, 'b_flow': 15926205.866922954, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -594.1115722523962, 'p_flow': 2000000.0, 'l_flow': 0.001990988784232651, 'genstime': 0, 'CLC': None, 'connections': 2, 'isSat': False, 'stime': 5574.066154003143, 'fremindex': None, 'duration': 65.29910616994047, 'x': 5966.368767158185, 'b_flow': 19275014.30786102, 'type': 'JP'}
+Reason: 2, t = 5574.82940404
+Time: 5574.82940404
+System Time Passed: 5574.06728697
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.41666666667, Average load: 0.863119765962
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 31]
+Flows satisfied: 58 out of 58
+Runtime: 0.00418210029602 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3118.8681973024513, 'p_flow': 3000000.0, 'l_flow': 0.002206214880712682, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5611.6675980091095, 'fremindex': None, 'duration': 15.804054193611663, 'x': 3314.124730837778, 'b_flow': 18919465.126795456, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 5022.14904876078, 'p_flow': 3000000.0, 'l_flow': 0.004934615283544629, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5611.735510110855, 'fremindex': None, 'duration': 5.798329613669828, 'x': 4107.196405677726, 'b_flow': 6096610.775086325, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 4174.680308314325, 'p_flow': 3000000.0, 'l_flow': 0.002742286783899192, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5613.028817176819, 'fremindex': None, 'duration': 68.51749591709579, 'x': 2157.5579417560098, 'b_flow': 16900985.668963667, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494598387.24 t:5618.15524643 iperfend:5.79832961367
+Flow not satisfied : {'isGen': False, 'y': 3219.7294120936112, 'p_flow': 3000000.0, 'l_flow': 0.003562179515241265, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5619.404973983765, 'fremindex': None, 'duration': 11.364023335324656, 'x': 4021.085046138691, 'b_flow': 17783284.94542462, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1060.7103211035042, 'p_flow': 3000000.0, 'l_flow': 0.0018028199984268395, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5619.968482971191, 'fremindex': None, 'duration': 108.16518840899252, 'x': 3546.6813178950206, 'b_flow': 6158561.388624312, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 3674.110611866151, 'p_flow': 3000000.0, 'l_flow': 0.0014944422388271476, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5621.258857965469, 'fremindex': None, 'duration': 1.014026778201696, 'x': 4790.799146844911, 'b_flow': 15643361.791204369, 'type': 'JP'}
+Reason: 2, t = 5621.49379863
+Time: 5621.49379863
+System Time Passed: 5621.26028109
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.77777777778, Average load: 0.853994756606
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 31, 9]
+Flows satisfied: 66 out of 66
+Runtime: 0.00535893440247 seconds
+
+
+Reason: 3, t = 5643.28531712
+Time: 5643.28531712
+System Time Passed: 5636.59505105
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.44444444444, Average load: 0.897486186522
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 31]
+Flows satisfied: 62 out of 62
+Runtime: 0.00333595275879 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': -529.7845675879944, 'p_flow': 3000000.0, 'l_flow': 0.0011331452483314566, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5697.727498054504, 'fremindex': None, 'duration': 19.263278857873484, 'x': 1935.7555496845039, 'b_flow': 16597038.912189469, 'type': 'JP'}
+Reason: 2, t = 5704.83786104
+Time: 5704.83786104
+System Time Passed: 5702.82360411
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.47222222222, Average load: 0.905225651232
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 31]
+Flows satisfied: 62 out of 62
+Runtime: 0.00162506103516 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5080.070718522587, 'p_flow': 3000000.0, 'l_flow': 0.001213131009546391, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5727.526540994644, 'fremindex': None, 'duration': 8.144932336223498, 'x': 1914.4424227819081, 'b_flow': 6834437.581311887, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 4919.613497389816, 'p_flow': 3000000.0, 'l_flow': 0.0016739449415709294, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5728.355282068253, 'fremindex': None, 'duration': 10.827969640035194, 'x': 5517.054532071963, 'b_flow': 15222034.58119524, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2547.234028164943, 'p_flow': 3000000.0, 'l_flow': 0.0024120654078716407, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5729.59442615509, 'fremindex': None, 'duration': 83.85350687448604, 'x': 3851.319725591012, 'b_flow': 5647765.3605564535, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494598510.57 t:5737.4224651 iperfend:8.14493233622
+Second elif :2: isSat:False isGen:False tt1:1494598513.03 t:5739.66982648 iperfend:10.82796964
+Flow not satisfied : {'isGen': False, 'y': 1850.4584518855859, 'p_flow': 3000000.0, 'l_flow': 0.0031796634711386915, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5764.793846130371, 'fremindex': None, 'duration': 74.38709287055254, 'x': 3241.1373612708276, 'b_flow': 17832596.60628436, 'type': 'JP'}
+Reason: 2, t = 5764.91323692
+Time: 5764.91323692
+System Time Passed: 5764.79530716
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.61111111111, Average load: 0.859670374765
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 31, 21]
+Flows satisfied: 64 out of 64
+Runtime: 0.00537610054016 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 206.38818177236817, 'p_flow': 3000000.0, 'l_flow': 0.0026664808307133013, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5774.720587015152, 'fremindex': None, 'duration': 69.59197134848868, 'x': 208.53200606973928, 'b_flow': 16516328.559990805, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3956.9807224212936, 'p_flow': 3000000.0, 'l_flow': 0.004443503263134703, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5783.532843112946, 'fremindex': None, 'duration': 134.30168957250388, 'x': 4304.738939322331, 'b_flow': 5463153.34932823, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 524.0380355135785, 'p_flow': 3000000.0, 'l_flow': 0.003167296194159443, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5786.509078025818, 'fremindex': None, 'duration': 77.15874048210517, 'x': 744.9452225310579, 'b_flow': 6027727.428552083, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 544.9534477008135, 'p_flow': 3000000.0, 'l_flow': 0.0046897399043096715, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5789.7688109874725, 'fremindex': None, 'duration': 174.86080168741066, 'x': 3843.93877934815, 'b_flow': 19764880.175743293, 'type': 'JP'}
+Reason: 2, t = 5824.92924581
+Time: 5824.92924581
+System Time Passed: 5823.57906818
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.66666666667, Average load: 0.86888171031
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 31, 21]
+Flows satisfied: 73 out of 73
+Runtime: 0.00591111183167 seconds
+
+
+Reason: 3, t = 5838.97832191
+Time: 5838.97832191
+System Time Passed: 5838.59219813
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.41666666667, Average load: 0.831553192514
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 21, 30]
+Flows satisfied: 67 out of 67
+Runtime: 0.00597310066223 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4833.614582828998, 'p_flow': 3000000.0, 'l_flow': 0.0010744196151133614, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5855.100337982178, 'fremindex': None, 'duration': 135.8051288851072, 'x': 257.5331663782299, 'b_flow': 15188115.244591812, 'type': 'JP'}
+Reason: 2, t = 5898.99168777
+Time: 5898.99168777
+System Time Passed: 5896.32862496
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.38888888889, Average load: 0.848682746735
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 21, 30]
+Flows satisfied: 68 out of 68
+Runtime: 0.00305795669556 seconds
+
+
+Reason: 2, t = 5959.81361913
+Time: 5959.81361913
+System Time Passed: 5953.97264504
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.30555555556, Average load: 0.844455460287
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 21, 30]
+Flows satisfied: 64 out of 64
+Runtime: 0.00183892250061 seconds
+
+
+Reason: 3, t = 5971.9923862
+Time: 5971.9923862
+System Time Passed: 5968.33257604
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.13888888889, Average load: 0.880490739994
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 30]
+Flows satisfied: 62 out of 62
+Runtime: 0.0018789768219 seconds
+
+
+Reason: 3, t = 5985.10661329
+Time: 5985.10661329
+System Time Passed: 5982.4123311
+State: Solved
+CRCs: 1, CLCs: 8 (out of 25 available), Control ratio: 2.94444444444, Average load: 0.951173133825
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16]
+Flows satisfied: 60 out of 60
+Runtime: 0.00454592704773 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2794.7434154990638, 'p_flow': 3000000.0, 'l_flow': 0.004464572684272481, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5993.284587144852, 'fremindex': None, 'duration': 32.563371554515925, 'x': 2413.568700012765, 'b_flow': 9102812.435888305, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 690.1413640114517, 'p_flow': 3000000.0, 'l_flow': 0.001993895342540519, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 5998.288645982742, 'fremindex': None, 'duration': 61.3105734109517, 'x': 5580.19798126322, 'b_flow': 6383734.919954125, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 638.8577316314615, 'p_flow': 3000000.0, 'l_flow': 0.004942590984834169, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6001.248924970627, 'fremindex': None, 'duration': 16.49857841791319, 'x': 2885.5435930672447, 'b_flow': 17457932.344833355, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 4516.286531145922, 'p_flow': 3000000.0, 'l_flow': 0.004259533777381324, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6005.376451015472, 'fremindex': None, 'duration': 22.849362565001567, 'x': 3547.1639957555126, 'b_flow': 8004116.25063135, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 5810.1418822362875, 'p_flow': 3000000.0, 'l_flow': 0.0029939741281284917, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6005.450700044632, 'fremindex': None, 'duration': 31.073448591098725, 'x': 2089.2661400779452, 'b_flow': 15856669.972988414, 'type': 'JP'}
+Reason: 2, t = 6006.42494316
+Time: 6006.42494316
+System Time Passed: 6005.451653
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.30555555556, Average load: 0.893888232781
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15]
+Flows satisfied: 62 out of 62
+Runtime: 0.00241589546204 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 585.419326776708, 'p_flow': 3000000.0, 'l_flow': 0.0020090954937196314, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6006.8234050273895, 'fremindex': None, 'duration': 15.482062367946856, 'x': -775.325488061165, 'b_flow': 7888540.978058644, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 62.95227840939765, 'p_flow': 3000000.0, 'l_flow': 0.002236429645400638, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6007.1913189888, 'fremindex': None, 'duration': 2.504377815901038, 'x': 1506.7132221531342, 'b_flow': 6675099.008645678, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1381.7574531029495, 'p_flow': 3000000.0, 'l_flow': 0.0014203200977114458, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6007.642301082611, 'fremindex': None, 'duration': 11.166221347031756, 'x': 5093.075889732215, 'b_flow': 5805330.257615898, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494598782.44 t:6010.11344913 iperfend:2.5043778159
+Flow not satisfied : {'isGen': False, 'y': 2386.1367929653006, 'p_flow': 3000000.0, 'l_flow': 0.0011443004429989544, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6008.919270038605, 'fremindex': None, 'duration': 5.740652013986551, 'x': 2512.2848134021465, 'b_flow': 5267285.5374627635, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 648.477989066748, 'p_flow': 3000000.0, 'l_flow': 0.0041687317185822555, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6010.620927095413, 'fremindex': None, 'duration': 5.245011718734414, 'x': -958.0014601106592, 'b_flow': 19338867.222058356, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 4884.865717561494, 'p_flow': 3000000.0, 'l_flow': 0.0017785259589963847, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6012.649083137512, 'fremindex': None, 'duration': 36.619426546802, 'x': 1788.3960052708185, 'b_flow': 7710190.387369113, 'type': 'JSJB'}
+Reason: 2, t = 6013.47458944
+Flow not satisfied : {'isGen': False, 'y': 4884.865717561494, 'p_flow': 3000000.0, 'l_flow': 0.0017785259589963847, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6012.649083137512, 'fremindex': 6050.0, 'duration': 36.619426546802, 'x': 1788.3960052708185, 'b_flow': 7710190.387369113, 'type': 'JSJB'}
+Time: 6013.47458944
+System Time Passed: 6012.65008307
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.66666666667, Average load: 0.867017180196
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15, 0]
+Flows satisfied: 68 out of 69
+Runtime: 0.00444889068604 seconds
+
+
+Reason: 3, t = 6036.47094867
+Time: 6036.47094867
+System Time Passed: 6035.98409009
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.25, Average load: 0.895235516258
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15]
+Flows satisfied: 63 out of 63
+Runtime: 0.00385189056396 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2275.3725975455286, 'p_flow': 3000000.0, 'l_flow': 0.0025052160197405952, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6085.034851074219, 'fremindex': None, 'duration': 83.78108603366239, 'x': 1319.0402929200895, 'b_flow': 9009180.90589751, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1032.8323094396196, 'p_flow': 3000000.0, 'l_flow': 0.002064463715307818, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6085.504160165787, 'fremindex': None, 'duration': 23.04772878476377, 'x': 3257.8659292222674, 'b_flow': 9026130.22519301, 'type': 'JSJB'}
+Reason: 2, t = 6097.55439684
+Time: 6097.55439684
+System Time Passed: 6091.86697817
+State: Solved
+CRCs: 1, CLCs: 9 (out of 25 available), Control ratio: 3.30555555556, Average load: 0.89781537361
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15]
+Flows satisfied: 63 out of 63
+Runtime: 0.00200009346008 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1924.1429142585184, 'p_flow': 3000000.0, 'l_flow': 0.004026171894077004, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6099.396813154221, 'fremindex': None, 'duration': 30.768500377720876, 'x': 3163.0053676925645, 'b_flow': 15559195.471523516, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1181.8214303289737, 'p_flow': 3000000.0, 'l_flow': 0.0013641710002284424, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6100.240806102753, 'fremindex': None, 'duration': 62.44123747358552, 'x': 531.4738809729345, 'b_flow': 18891120.772683535, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 5355.471518127626, 'p_flow': 3000000.0, 'l_flow': 0.001997937368733602, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6105.315119981766, 'fremindex': None, 'duration': 108.58318544695848, 'x': 5177.107940074311, 'b_flow': 16541732.209594484, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1243.9555463973538, 'p_flow': 3000000.0, 'l_flow': 0.001505677701077989, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6110.037141084671, 'fremindex': None, 'duration': 11.020208727271438, 'x': 3634.492768551552, 'b_flow': 15960523.069600433, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3640.868954998771, 'p_flow': 3000000.0, 'l_flow': 0.0042489428903261, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6110.19806098938, 'fremindex': None, 'duration': 62.510834319902166, 'x': 848.3379347537727, 'b_flow': 16254874.688802185, 'type': 'JP'}
+Reason: 2, t = 6110.80022827
+Time: 6110.80022827
+System Time Passed: 6110.19963098
+State: Solved
+CRCs: 1, CLCs: 11 (out of 25 available), Control ratio: 3.75, Average load: 0.800359464693
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15, 9, 14]
+Flows satisfied: 69 out of 69
+Runtime: 0.00557589530945 seconds
+
+
+Reason: 3, t = 6122.39291394
+Time: 6122.39291394
+System Time Passed: 6117.38790107
+State: Solved
+CRCs: 1, CLCs: 11 (out of 25 available), Control ratio: 3.83333333333, Average load: 0.807958916721
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15, 9, 3]
+Flows satisfied: 70 out of 70
+Runtime: 0.0034818649292 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1667.3188743321211, 'p_flow': 3000000.0, 'l_flow': 0.0032013626287389057, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6124.744049072266, 'fremindex': None, 'duration': 39.54092547391797, 'x': 4474.7467685609845, 'b_flow': 19787327.654449113, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -503.4563738166975, 'p_flow': 3000000.0, 'l_flow': 0.004438331253631903, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6129.289932012558, 'fremindex': None, 'duration': 134.36388114457452, 'x': 4685.40923005679, 'b_flow': 16958529.304435227, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1208.3615433968039, 'p_flow': 3000000.0, 'l_flow': 0.004116309794777984, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6133.486379146576, 'fremindex': None, 'duration': 25.784388130448548, 'x': 5690.220600664853, 'b_flow': 18935891.887362372, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494598932.21 t:6160.38817826 iperfend:25.7843881304
+Flow not satisfied : {'isGen': False, 'y': 3516.6285057373434, 'p_flow': 3000000.0, 'l_flow': 0.004952609279640427, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6158.689283132553, 'fremindex': None, 'duration': 88.72452142930402, 'x': 3149.824797582988, 'b_flow': 17659824.05174563, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494598936.65 t:6165.3161517 iperfend:39.5409254739
+Reason: 2, t = 6183.35001676
+Flow not satisfied : {'isGen': False, 'y': 3516.6285057373434, 'p_flow': 3000000.0, 'l_flow': 0.004952609279640427, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6158.689283132553, 'fremindex': 6248.0, 'duration': 88.72452142930402, 'x': 3149.824797582988, 'b_flow': 17659824.05174563, 'type': 'JP'}
+Time: 6183.35001676
+System Time Passed: 6181.7617631
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 3.77777777778, Average load: 0.768216032337
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15, 9, 3, 21]
+Flows satisfied: 71 out of 72
+Runtime: 0.00464296340942 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4117.881558418733, 'p_flow': 3000000.0, 'l_flow': 0.003049746411037168, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6194.9671840667725, 'fremindex': None, 'duration': 48.31691607818771, 'x': 4883.797659924574, 'b_flow': 19347131.442841202, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 4948.341786931871, 'p_flow': 3000000.0, 'l_flow': 0.0010982979419407464, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6195.804813146591, 'fremindex': None, 'duration': 71.49507661051916, 'x': 2621.2617073174806, 'b_flow': 17099605.003509417, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1149.9269633570889, 'p_flow': 3000000.0, 'l_flow': 0.002814795835062422, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6196.199946165085, 'fremindex': None, 'duration': 4.066054815671976, 'x': 4868.246647368956, 'b_flow': 9647562.252181109, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1139.1498863560364, 'p_flow': 3000000.0, 'l_flow': 0.004816043012459808, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6196.40540099144, 'fremindex': None, 'duration': 22.82690152990401, 'x': 5294.933224788394, 'b_flow': 15550319.972475259, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494598970.81 t:6202.89042837 iperfend:4.06605481567
+Flow not satisfied : {'isGen': False, 'y': 2575.0938508837567, 'p_flow': 3000000.0, 'l_flow': 0.0029337695199513148, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6215.028213024139, 'fremindex': None, 'duration': 3.889016032060634, 'x': 5954.671895997398, 'b_flow': 16492440.470672037, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494598990.27 t:6218.33048316 iperfend:3.88901603206
+Second elif :2: isSat:False isGen:False tt1:1494598991.85 t:6219.05097441 iperfend:22.8269015299
+Flow not satisfied : {'isGen': False, 'y': 1565.5353886306493, 'p_flow': 3000000.0, 'l_flow': 0.002053617440861339, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6219.365539073944, 'fremindex': None, 'duration': 3.281548350252273, 'x': 4217.996473153957, 'b_flow': 8470972.960127871, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494598994.32 t:6223.65246917 iperfend:3.28154835025
+Flow not satisfied : {'isGen': False, 'y': 105.49766504275112, 'p_flow': 3000000.0, 'l_flow': 0.002438987538692781, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6229.243687152863, 'fremindex': None, 'duration': 25.302496520939147, 'x': 4586.521987385746, 'b_flow': 9758734.342566848, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 97.57523937253677, 'p_flow': 3000000.0, 'l_flow': 0.001573034850819655, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6234.82181596756, 'fremindex': None, 'duration': 5.933938661520456, 'x': 4572.074908294543, 'b_flow': 17570537.44565744, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494599011.81 t:6242.02715511 iperfend:5.93393866152
+First elif :1:isSat:False isGen:False tt1:1494599023.02 t:6249.79687095 iperfend:48.3169160782
+First elif :1:isSat:False isGen:False tt1:1494599023.02 t:6249.79687095 iperfend:88.7245214293
+Reason: 2, t = 6249.79687095
+Flow not satisfied : {'isGen': False, 'y': 4948.341786931871, 'p_flow': 3000000.0, 'l_flow': 0.0010982979419407464, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6195.804813146591, 'fremindex': 6268.0, 'duration': 71.49507661051916, 'x': 2621.2617073174806, 'b_flow': 17099605.003509417, 'type': 'JP'}
+Time: 6249.79687095
+System Time Passed: 6249.54592013
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.08333333333, Average load: 0.753200499433
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15, 9, 3, 21, 30]
+Flows satisfied: 74 out of 75
+Runtime: 0.00743579864502 seconds
+
+
+Reason: 3, t = 6261.37208262
+Flow not satisfied : {'isGen': False, 'y': 4948.341786931871, 'p_flow': 3000000.0, 'l_flow': 0.0010982979419407464, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6261.372082619205, 'fremindex': 6268.0, 'duration': 71.49507661051916, 'x': 2621.2617073174806, 'b_flow': 17099605.003509417, 'type': 'JP'}
+Time: 6261.37208262
+System Time Passed: 6260.28672719
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.11111111111, Average load: 0.758547148421
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 15, 9, 3, 21, 30]
+Flows satisfied: 75 out of 76
+Runtime: 0.00583386421204 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 2198.435439969273, 'p_flow': 3000000.0, 'l_flow': 0.001669299017725551, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6261.37282705307, 'fremindex': None, 'duration': 36.58488544286337, 'x': 5293.197101231606, 'b_flow': 18747053.914108895, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494599038.15 t:6267.57312272 iperfend:71.4950766105
+Reason: 3, t = 6271.98305728
+Flow not satisfied : {'isGen': False, 'y': 2198.435439969273, 'p_flow': 3000000.0, 'l_flow': 0.001669299017725551, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6261.37282705307, 'fremindex': 6298.0, 'duration': 36.58488544286337, 'x': 5293.197101231606, 'b_flow': 18747053.914108895, 'type': 'JP'}
+Time: 6271.98305728
+System Time Passed: 6268.63335109
+State: Solved
+CRCs: 1, CLCs: 11 (out of 25 available), Control ratio: 3.97222222222, Average load: 0.865527033454
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 9, 3, 21]
+Flows satisfied: 75 out of 76
+Runtime: 0.00386500358582 seconds
+
+
+Reason: 3, t = 6288.09124617
+Flow not satisfied : {'isGen': False, 'y': 2198.435439969273, 'p_flow': 3000000.0, 'l_flow': 0.001669299017725551, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6261.37282705307, 'fremindex': 6298.0, 'duration': 36.58488544286337, 'x': 5293.197101231606, 'b_flow': 18747053.914108895, 'type': 'JP'}
+Time: 6288.09124617
+System Time Passed: 6281.96085906
+State: Solved
+CRCs: 1, CLCs: 10 (out of 25 available), Control ratio: 3.80555555556, Average load: 0.918245428688
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21]
+Flows satisfied: 74 out of 75
+Runtime: 0.00812292098999 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': -360.5383516465047, 'p_flow': 3000000.0, 'l_flow': 0.0026180281821257144, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6293.866019010544, 'fremindex': None, 'duration': 134.30427708499403, 'x': 3892.4232002372073, 'b_flow': 6245975.019393029, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494599069.99 t:6298.53115087 iperfend:36.5848854429
+Flow not satisfied : {'isGen': False, 'y': 442.4820318556092, 'p_flow': 3000000.0, 'l_flow': 0.0010547798504582952, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6296.465888977051, 'fremindex': None, 'duration': 16.315794456224616, 'x': 304.2646957030888, 'b_flow': 8811681.697028434, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 555.3669085199742, 'p_flow': 3000000.0, 'l_flow': 0.003481765264354586, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6298.53281712532, 'fremindex': None, 'duration': 35.14661657012893, 'x': 3111.3892440361333, 'b_flow': 16426504.876799652, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3124.9863564525713, 'p_flow': 3000000.0, 'l_flow': 0.0047654174445377825, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6301.334592103958, 'fremindex': None, 'duration': 3.979482068050704, 'x': 5772.951436010781, 'b_flow': 17385096.39105436, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494599076.57 t:6305.53166803 iperfend:3.97948206805
+Flow not satisfied : {'isGen': False, 'y': 4547.914250615413, 'p_flow': 3000000.0, 'l_flow': 0.001480618177307167, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6306.027165174484, 'fremindex': None, 'duration': 148.67849892274913, 'x': 3283.61543671204, 'b_flow': 18800790.506203663, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494599084.84 t:6312.21708368 iperfend:16.3157944562
+Flow not satisfied : {'isGen': False, 'y': 3000.081373671652, 'p_flow': 3000000.0, 'l_flow': 0.004187505683018594, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6312.218388080597, 'fremindex': None, 'duration': 21.40948192474417, 'x': 3683.1472172827116, 'b_flow': 16289643.58122161, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1552.4363577423173, 'p_flow': 3000000.0, 'l_flow': 0.002649475594454489, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6313.756812095642, 'fremindex': None, 'duration': 45.59223092954737, 'x': 1910.3820890752618, 'b_flow': 6103773.760190076, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 3822.3749384112916, 'p_flow': 3000000.0, 'l_flow': 0.0020136531439444907, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6314.75735616684, 'fremindex': None, 'duration': 6.685254776561009, 'x': 4985.858985394451, 'b_flow': 16421988.810593175, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -32.95564385089426, 'p_flow': 3000000.0, 'l_flow': 0.004373105995859786, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6315.202424049377, 'fremindex': None, 'duration': 17.176364836733725, 'x': -239.29643493987578, 'b_flow': 15509367.75313405, 'type': 'JP'}
+Reason: 2, t = 6315.21989513
+Time: 6315.21989513
+System Time Passed: 6315.20366311
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.30555555556, Average load: 0.830865527661
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 33]
+Flows satisfied: 78 out of 78
+Runtime: 0.00453209877014 seconds
+
+
+Reason: 2, t = 6375.2721974
+Time: 6375.2721974
+System Time Passed: 6375.21864414
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.19444444444, Average load: 0.832303810063
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 33]
+Flows satisfied: 78 out of 78
+Runtime: 0.0035388469696 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4336.2502584942595, 'p_flow': 3000000.0, 'l_flow': 0.0017648795092742604, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6392.876855134964, 'fremindex': None, 'duration': 27.00678457548083, 'x': 4021.945194026791, 'b_flow': 15348400.043578036, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 793.8299857692034, 'p_flow': 3000000.0, 'l_flow': 0.0036599558105684304, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6398.37179517746, 'fremindex': None, 'duration': 7.095187909381272, 'x': 3890.03120018143, 'b_flow': 9704585.932544142, 'type': 'JSJB'}
+Second elif :2: isSat:False isGen:False tt1:1494599178.36 t:6405.23125476 iperfend:7.09518790938
+Flow not satisfied : {'isGen': False, 'y': 4028.3448311581433, 'p_flow': 3000000.0, 'l_flow': 0.0025693608682040817, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6407.316001176834, 'fremindex': None, 'duration': 20.21562330493365, 'x': 4022.2671899705574, 'b_flow': 8369186.741679963, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1679.0154235031878, 'p_flow': 3000000.0, 'l_flow': 0.0020777740681354015, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6411.340306043625, 'fremindex': None, 'duration': 27.553866400604477, 'x': 270.6143368163696, 'b_flow': 16476076.61341186, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494599191.73 t:6419.98405257 iperfend:27.0067845755
+Second elif :2: isSat:False isGen:False tt1:1494599196.75 t:6427.18682273 iperfend:20.2156233049
+Reason: 2, t = 6436.18925427
+Time: 6436.18925427
+System Time Passed: 6434.871665
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.36111111111, Average load: 0.861362657157
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 33]
+Flows satisfied: 81 out of 81
+Runtime: 0.00288891792297 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 542.0629385661045, 'p_flow': 3000000.0, 'l_flow': 0.0032149674572913805, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6442.376440048218, 'fremindex': None, 'duration': 22.663243410229146, 'x': -341.78296225776387, 'b_flow': 17166872.46013517, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2173.422609110231, 'p_flow': 3000000.0, 'l_flow': 0.002231576258711388, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6443.308817148209, 'fremindex': None, 'duration': 42.55660571617278, 'x': 2774.2877573982532, 'b_flow': 18586647.782712862, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494599238.01 t:6465.99714451 iperfend:22.6632434102
+First elif :1:isSat:False isGen:False tt1:1494599255.74 t:6487.74465775 iperfend:42.5566057162
+Reason: 2, t = 6496.58103094
+Time: 6496.58103094
+System Time Passed: 6496.00714397
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.19444444444, Average load: 0.848030333091
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 33]
+Flows satisfied: 80 out of 80
+Runtime: 0.00374507904053 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1622.5970089108523, 'p_flow': 3000000.0, 'l_flow': 0.0027183308819289324, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6535.041824102402, 'fremindex': None, 'duration': 40.057219189460774, 'x': 4102.474366424003, 'b_flow': 9809112.78843128, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 233.0257445572006, 'p_flow': 3000000.0, 'l_flow': 0.001290604645790244, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6540.44584107399, 'fremindex': None, 'duration': 0.37226647987747397, 'x': -248.11757680117591, 'b_flow': 5295616.609311639, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1655.4343839442968, 'p_flow': 3000000.0, 'l_flow': 0.001971947889072212, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6545.117707967758, 'fremindex': None, 'duration': 58.3297584563803, 'x': 3177.993342875283, 'b_flow': 8162086.230163991, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2224.955685329879, 'p_flow': 3000000.0, 'l_flow': 0.0022703129496106696, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6545.267614126205, 'fremindex': None, 'duration': 52.06489324538281, 'x': 781.9183011896444, 'b_flow': 15997108.624850564, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 3471.8747739961836, 'p_flow': 3000000.0, 'l_flow': 0.003351388551741368, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6545.498435974121, 'fremindex': None, 'duration': 24.770489716729728, 'x': 5639.423649191294, 'b_flow': 15821271.656356888, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 4903.835119603319, 'p_flow': 3000000.0, 'l_flow': 0.0036397572944090735, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6545.885717153549, 'fremindex': None, 'duration': 167.91455881026923, 'x': -611.7255545144072, 'b_flow': 19463408.23090855, 'type': 'JP'}
+Reason: 2, t = 6559.68359095
+Flow not satisfied : {'isGen': False, 'y': 1655.4343839442968, 'p_flow': 3000000.0, 'l_flow': 0.001971947889072212, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6545.117707967758, 'fremindex': 6604.0, 'duration': 58.3297584563803, 'x': 3177.993342875283, 'b_flow': 8162086.230163991, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 4903.835119603319, 'p_flow': 3000000.0, 'l_flow': 0.0036397572944090735, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6545.885717153549, 'fremindex': 6714.0, 'duration': 167.91455881026923, 'x': -611.7255545144072, 'b_flow': 19463408.23090855, 'type': 'JP'}
+Time: 6559.68359095
+System Time Passed: 6555.28577304
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 3.83333333333, Average load: 0.811559821567
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 33]
+Flows satisfied: 76 out of 78
+Runtime: 0.00587201118469 seconds
+
+
+Reason: 3, t = 6565.95506209
+Flow not satisfied : {'isGen': False, 'y': 4903.835119603319, 'p_flow': 3000000.0, 'l_flow': 0.0036397572944090735, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6565.955062089645, 'fremindex': 6714.0, 'duration': 167.91455881026923, 'x': -611.7255545144072, 'b_flow': 19463408.23090855, 'type': 'JP'}
+Time: 6565.95506209
+System Time Passed: 6564.07948112
+State: Solved
+CRCs: 1, CLCs: 11 (out of 25 available), Control ratio: 3.75, Average load: 0.882328544979
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18]
+Flows satisfied: 77 out of 78
+Runtime: 0.00325012207031 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1222.3848688647026, 'p_flow': 3000000.0, 'l_flow': 0.0038424306135935457, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6600.418955087662, 'fremindex': None, 'duration': 173.0679261432137, 'x': 838.7495924919858, 'b_flow': 7750927.453422946, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 5510.078533136141, 'p_flow': 3000000.0, 'l_flow': 0.00488157255738498, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6620.414196014404, 'fremindex': None, 'duration': 4.962777886381137, 'x': 5037.057176591813, 'b_flow': 15081604.403021706, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494599394.59 t:6625.2211364 iperfend:4.96277788638
+Reason: 2, t = 6626.92689267
+Time: 6626.92689267
+System Time Passed: 6625.26679397
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.02777777778, Average load: 0.832032708617
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5]
+Flows satisfied: 78 out of 78
+Runtime: 0.00360608100891 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3244.0171906608957, 'p_flow': 3000000.0, 'l_flow': 0.0027913915081366324, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6653.01394701004, 'fremindex': None, 'duration': 61.49374334073764, 'x': 5711.3360126481275, 'b_flow': 6057845.74387006, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1329.858041933228, 'p_flow': 3000000.0, 'l_flow': 0.0046562391985837965, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6653.747899055481, 'fremindex': None, 'duration': 88.40061201238812, 'x': 5183.995800306632, 'b_flow': 9802218.20238609, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 816.8388010001852, 'p_flow': 3000000.0, 'l_flow': 0.0020989499536873445, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6656.292471170425, 'fremindex': None, 'duration': 102.33268996486899, 'x': -809.9397593031248, 'b_flow': 19692009.19356157, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1755.6014179679914, 'p_flow': 3000000.0, 'l_flow': 0.0029685374893472674, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6675.4932651519775, 'fremindex': None, 'duration': 82.55766850563812, 'x': 5903.274163718366, 'b_flow': 6197588.979965198, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2902.094307413787, 'p_flow': 2000000.0, 'l_flow': 0.002897137959962526, 'genstime': 0, 'CLC': None, 'connections': 2, 'isSat': False, 'stime': 6675.645462989807, 'fremindex': None, 'duration': 16.411039292234655, 'x': 5941.611233956285, 'b_flow': 17869259.887519374, 'type': 'JP'}
+Reason: 2, t = 6687.9435999
+Flow not satisfied : {'isGen': False, 'y': 3244.0171906608957, 'p_flow': 3000000.0, 'l_flow': 0.0027913915081366324, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6653.01394701004, 'fremindex': 6715.0, 'duration': 61.49374334073764, 'x': 5711.3360126481275, 'b_flow': 6057845.74387006, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1755.6014179679914, 'p_flow': 3000000.0, 'l_flow': 0.0029685374893472674, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6675.4932651519775, 'fremindex': 6759.0, 'duration': 82.55766850563812, 'x': 5903.274163718366, 'b_flow': 6197588.979965198, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2902.094307413787, 'p_flow': 2000000.0, 'l_flow': 0.002897137959962526, 'genstime': 0, 'CLC': None, 'connections': 2, 'isSat': False, 'stime': 6675.645462989807, 'fremindex': 6693.0, 'duration': 16.411039292234655, 'x': 5941.611233956285, 'b_flow': 17869259.887519374, 'type': 'JP'}
+Time: 6687.9435999
+System Time Passed: 6686.44936109
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.05555555556, Average load: 0.832962384282
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5]
+Flows satisfied: 76 out of 79
+Runtime: 0.00520181655884 seconds
+
+
+First elif :1:isSat:False isGen:False tt1:1494599464.9 t:6693.99969927 iperfend:16.4110392922
+Flow not satisfied : {'isGen': False, 'y': 2268.020917931568, 'p_flow': 3000000.0, 'l_flow': 0.004572330959331409, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6712.722896099091, 'fremindex': None, 'duration': 29.13493318637093, 'x': 5271.504228233793, 'b_flow': 16522627.755647978, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494599487.13 t:6715.30227367 iperfend:61.4937433407
+Flow not satisfied : {'isGen': False, 'y': -83.07899214932081, 'p_flow': 3000000.0, 'l_flow': 0.002719846745163874, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6727.474562168121, 'fremindex': None, 'duration': 63.408167849992694, 'x': 5300.125620206878, 'b_flow': 15888329.586085092, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2277.8605856042823, 'p_flow': 3000000.0, 'l_flow': 0.004209508417087498, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6728.000400066376, 'fremindex': None, 'duration': 10.731191248740865, 'x': -625.2388323154244, 'b_flow': 17509593.853452086, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2782.0381693202685, 'p_flow': 3000000.0, 'l_flow': 0.003030804304975837, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6728.182188034058, 'fremindex': None, 'duration': 4.628568900689206, 'x': 3549.248842742817, 'b_flow': 19391805.96540932, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 284.2829247506886, 'p_flow': 3000000.0, 'l_flow': 0.003671730450884095, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6728.947309017181, 'fremindex': None, 'duration': 41.75767655872492, 'x': 2190.4435992415024, 'b_flow': 9705160.66709353, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494599505.21 t:6736.11969894 iperfend:4.62856890069
+Second elif :2: isSat:False isGen:False tt1:1494599510.41 t:6738.94406631 iperfend:10.7311912487
+Second elif :2: isSat:False isGen:False tt1:1494599514.25 t:6741.39227907 iperfend:29.1349331864
+Reason: 2, t = 6749.2095159
+Time: 6749.2095159
+System Time Passed: 6746.89328003
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.38888888889, Average load: 0.828660582685
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5, 31]
+Flows satisfied: 86 out of 86
+Runtime: 0.00866198539734 seconds
+
+
+Reason: 3, t = 6761.41620186
+Time: 6761.41620186
+System Time Passed: 6756.66055417
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.38888888889, Average load: 0.827809468541
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5, 31]
+Flows satisfied: 83 out of 83
+Runtime: 0.00472807884216 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 5614.005003115885, 'p_flow': 3000000.0, 'l_flow': 0.0025821065942981405, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6811.908635139465, 'fremindex': None, 'duration': 34.40161385631886, 'x': 4049.3585495837406, 'b_flow': 5176530.90106476, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 2196.3800662120434, 'p_flow': 3000000.0, 'l_flow': 0.001303002648159616, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6813.635791063309, 'fremindex': None, 'duration': 26.747802873669556, 'x': -964.0518294785513, 'b_flow': 5295786.110503013, 'type': 'JSJB'}
+Reason: 2, t = 6823.72597172
+Time: 6823.72597172
+System Time Passed: 6820.91528797
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.55555555556, Average load: 0.850422526056
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5, 31]
+Flows satisfied: 85 out of 85
+Runtime: 0.00387191772461 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 1371.754606579735, 'p_flow': 3000000.0, 'l_flow': 0.0011126282560584638, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6841.038146018982, 'fremindex': None, 'duration': 14.65919881232583, 'x': 3408.9839927175453, 'b_flow': 19719200.46747595, 'type': 'JP'}
+First elif :1:isSat:False isGen:False tt1:1494599625.52 t:6856.29697829 iperfend:14.6591988123
+Flow not satisfied : {'isGen': False, 'y': 415.4803629963908, 'p_flow': 3000000.0, 'l_flow': 0.0030691105447637687, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6880.000796079636, 'fremindex': None, 'duration': 185.96174359193182, 'x': 5404.678823193845, 'b_flow': 9785231.17103957, 'type': 'JSJB'}
+Reason: 2, t = 6885.34565505
+Time: 6885.34565505
+System Time Passed: 6885.10101914
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.36111111111, Average load: 0.845488584107
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5, 31]
+Flows satisfied: 82 out of 82
+Runtime: 0.00259017944336 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 203.41176263892658, 'p_flow': 3000000.0, 'l_flow': 0.0029648005785701207, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6924.627281188965, 'fremindex': None, 'duration': 66.7490999637786, 'x': 3897.0171365467304, 'b_flow': 6616640.701717492, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 1038.4896789478569, 'p_flow': 3000000.0, 'l_flow': 0.001676526398691351, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6925.7462611198425, 'fremindex': None, 'duration': 49.713322587707296, 'x': 718.1838918292508, 'b_flow': 18604360.55471701, 'type': 'JP'}
+Reason: 2, t = 6945.97805238
+Time: 6945.97805238
+System Time Passed: 6945.36459398
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.38888888889, Average load: 0.84540818422
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5, 31]
+Flows satisfied: 84 out of 84
+Runtime: 0.00346708297729 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 4318.2876028823075, 'p_flow': 3000000.0, 'l_flow': 0.0017277416236982225, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 6956.537154197693, 'fremindex': None, 'duration': 12.527565351434935, 'x': 4277.699397855813, 'b_flow': 9120705.709978161, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494599741.92 t:6970.2661414 iperfend:12.5275653514
+Reason: 2, t = 7006.71841175
+Time: 7006.71841175
+System Time Passed: 7005.7276361
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.22222222222, Average load: 0.822121797704
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 5, 31]
+Flows satisfied: 81 out of 81
+Runtime: 0.00245499610901 seconds
+
+
+Reason: 3, t = 7015.94435345
+Time: 7015.94435345
+System Time Passed: 7013.46094418
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.08333333333, Average load: 0.875590086621
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 31]
+Flows satisfied: 82 out of 82
+Runtime: 0.00274395942688 seconds
+
+
+Reason: 2, t = 7079.82035701
+Time: 7079.82035701
+System Time Passed: 7073.30296707
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 3.86111111111, Average load: 0.838127415068
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 21, 18, 31]
+Flows satisfied: 75 out of 75
+Runtime: 0.00301885604858 seconds
+
+
+Reason: 3, t = 7092.94444428
+Time: 7092.94444428
+System Time Passed: 7086.73639917
+State: Solved
+CRCs: 1, CLCs: 11 (out of 25 available), Control ratio: 3.55555555556, Average load: 0.844432449119
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 18, 31]
+Flows satisfied: 68 out of 68
+Runtime: 0.00284099578857 seconds
+
+
+Flow not satisfied : {'isGen': False, 'y': 3884.372051997848, 'p_flow': 3000000.0, 'l_flow': 0.004374230320377226, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 7137.714262962341, 'fremindex': None, 'duration': 1.128159479532694, 'x': 2612.4616321557555, 'b_flow': 15175917.590293389, 'type': 'JP'}
+Second elif :2: isSat:False isGen:False tt1:1494599911.45 t:7138.44349745 iperfend:1.12815947953
+Flow not satisfied : {'isGen': False, 'y': 5559.018190664667, 'p_flow': 2000000.0, 'l_flow': 0.004202323329331264, 'genstime': 0, 'CLC': None, 'connections': 2, 'isSat': False, 'stime': 7147.861054182053, 'fremindex': None, 'duration': 5.8347685292380325, 'x': -868.3914474671269, 'b_flow': 15410528.578260185, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 2005.09471790409, 'p_flow': 3000000.0, 'l_flow': 0.003936235123859962, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 7148.506939172745, 'fremindex': None, 'duration': 11.964536456805366, 'x': 5852.841419673412, 'b_flow': 5973211.261469361, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 5176.992685084799, 'p_flow': 3000000.0, 'l_flow': 0.003972320756225217, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 7148.598575115204, 'fremindex': None, 'duration': 23.678759082775237, 'x': 5866.323853732767, 'b_flow': 15304766.36040142, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': -591.1441402608515, 'p_flow': 2000000.0, 'l_flow': 0.0011322050459489717, 'genstime': 0, 'CLC': None, 'connections': 2, 'isSat': False, 'stime': 7149.4950041770935, 'fremindex': None, 'duration': 22.80630875722275, 'x': -851.2667512262166, 'b_flow': 6014969.822819178, 'type': 'JSJB'}
+Flow not satisfied : {'isGen': False, 'y': 3599.919787137538, 'p_flow': 3000000.0, 'l_flow': 0.0010209172992365209, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 7149.552051067352, 'fremindex': None, 'duration': 60.381347633113265, 'x': 1037.8952585636662, 'b_flow': 15680937.81660834, 'type': 'JP'}
+Flow not satisfied : {'isGen': False, 'y': 1684.5261659867692, 'p_flow': 3000000.0, 'l_flow': 0.0010323044433104642, 'genstime': 0, 'CLC': None, 'connections': 3, 'isSat': False, 'stime': 7149.62540102005, 'fremindex': None, 'duration': 3.1212768262071777, 'x': -685.4693054954721, 'b_flow': 9624551.007400237, 'type': 'JSJB'}
+First elif :1:isSat:False isGen:False tt1:1494599923.47 t:7155.11800127 iperfend:3.12127682621
+First elif :1:isSat:False isGen:False tt1:1494599923.47 t:7155.11800127 iperfend:5.83476852924
+Reason: 2, t = 7155.11800127
+Time: 7155.11800127
+System Time Passed: 7149.98452711
+State: Solved
+CRCs: 1, CLCs: 13 (out of 25 available), Control ratio: 4.19444444444, Average load: 0.799048531709
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 18, 31, 0, 28]
+Flows satisfied: 78 out of 78
+Runtime: 0.00541090965271 seconds
+
+
+Reason: 3, t = 7176.10596084
+Time: 7176.10596084
+System Time Passed: 7170.85794616
+State: Solved
+CRCs: 1, CLCs: 12 (out of 25 available), Control ratio: 4.02777777778, Average load: 0.846013642274
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 18, 31, 0]
+Flows satisfied: 76 out of 76
+Runtime: 0.00191402435303 seconds
+
+
+Reason: 3, t = 7192.70941046
+Time: 7192.70941046
+System Time Passed: 7185.36990213
+State: Solved
+CRCs: 1, CLCs: 11 (out of 25 available), Control ratio: 3.83333333333, Average load: 0.899480047338
+Latest CRCs: [17] and , CLCs: [10, 24, 34, 2, 6, 32, 23, 16, 3, 18, 31]
+Flows satisfied: 76 out of 76
+Runtime: 0.00324416160583 seconds
+
+
+At the end
+starttime:1494592773.52
+Time: 7200.25744649
+System Time Passed: 7200.26272607
+Flows satisfied: 3080 out of 3133
+MaxiNet> At the end addcount:3133 and remcount:3057 and rejectedFlows:2
+At the end TotalSatisfied:3080 and TotalUnsatisfied:58 and TotalFlowStopped:125
+At the end starttime:1494592773.52 and endtime:1494600364.58
