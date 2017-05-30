@@ -19,3 +19,7 @@ loadlevel.py is used to prepare the load distribution graph.
 fcapf_ryu_controller.py is the Ryu SDN controller.
 
 echoclient.py multiechoclient.py are used to test send packet between two hosts. Specifically to generate delay reports for proving data flow processing.
+
+Test_16_mesh.dat, Test_36_mesh.dat, and Test_36_ring.dat these topology description files are used for executing all the test scenario. 
+
+MaxiNet.cfg is an example MaxiNet.cfg file used in the testbed.
