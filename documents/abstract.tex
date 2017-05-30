@@ -1,0 +1,15 @@
+% abstract.tex (Abstract)
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+\addcontentsline{toc}{chapter}{Abstract}
+
+\chapter*{Abstract}
+Software-Defined Networking (SDN) is a promising solution for dealing with high traffic demand in the mobile wireless network. However, while SDN controllers support routing of information flow, it has limited data processing mechanisms. Flow processing-aware Control Application Placement Problem (FCAPP) addresses this limitation as well as provide a solution to perform network control and data flow processing in the network.
+
+This thesis aims to create an SDN-based testbed in order to facilitate Flexible Flow processing-aware Control Application Placement Framework (FlexFCAPF) and evaluate its functionality in an emulated network environment. To this end,  this thesis follows four major processes, investigate networking application testing methods, implement the testbed, evaluate FlexFCAPF algorithm and analyze test execution results.
+
+An emulation testbed was built using the Mininet and MaxiNet platforms. In particular, Mininet was used for small-scale testing and MaxiNet for large scale testing. A custom SDN controller was developed which has the ability to discover the underlying network and can process request from other applications. This controller is made from Ryu since Ryu framework is easily customizable, compatible to Mininet and MaxiNet, and component-based. Generation of real controlled traffic was implemented in the emulation network and a way to provide user defined identifier in the packet of the generated traffic was developed. Linux Traffic Control functionality with NetEm was also used for emulating the processing capability in Control Applications (CAs). Bucket, which is a grouping of traffic flow was developed to minimize configuration overhead for data processing and maintain the unique identification of different flows. These tools and technologies were configured following a laboratory set-up design. Several emulation test scenarios were executed and mesh topology was used for Mininet and while both mesh and ring topology for MaxiNet scenarios.
+
+The findings of this thesis suggest that FlexFCAPF is a feasible solution both functionality-wise and performance-wise. Traffic generation logs show that all real traffic was generated as desired.  Data processing capability under high load situation was tested and 0\% packet loss was observed. A varying load level is maintained during the whole execution and it is observed that FlexFCAPF algorithm successfully adjust the network based on the load level in the system. It is observed that even at the peak load situation, FlexFCAPF does not take more than 20 ms to reconfigure the whole network.

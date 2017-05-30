@@ -1,0 +1,210 @@
+% appendix.tex (Appendix)
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+
+\chapter{Appendix A}\label{APPD-CHAP}
+This chapter covers the infrastructure and operation aspects of the testbed. It provides the hardware details along with basic structure and elements of the testbed. It also presents a stepwise procedure to install and configure the testbed as well as configure FlexFCAPF emulation.
+
+\section{Infrastructure}\label{sec:infra}
+Figure \ref{fig:testinfra} shows the overview of the current testbed infrastructure. The testbed consists of four physical machines (PC1, PC2, PC3, and PC4). All these four machines are connected to Paderborn University's network with an ethernet switch (20Gbits) using their internal Network Interface Cards (NICs). A terminal is connected to the first machine. A user can access the testbed using the terminal or using ssh through the university network. PC1 is used as MaxiNet frontend and the other three machines are used as MaxiNet worker. FlexFCAPF and the Ryu Controller Framework also run on PC1. Altogether, these machines build the MaxiNet Cluster. The system configuration of the testbed is described in Table \ref{tab:sysconf}.
+
+\begin{table}[h!]
+	\centering
+	\caption{System configuration of testbed machine}
+	\label{tab:sysconf}
+	{\footnotesize
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		\textbf{Details} & \textbf{CPU} & \textbf{Core} & \textbf{RAM} & \textbf{OS} & \textbf{Host Name} & \textbf{IP Address}\\
+		\hline
+		\textbf{PC1} & 3.00GHz & 2 & 4GB & Ubuntu 14.04 LTS & fg-cn-crowd-1.cs.upb.de & 131.234.250.30\\
+		\hline
+		\textbf{PC2} & 3.00GHz & 2 & 8GB & Ubuntu 14.04 LTS & fg-cn-crowd-2.cs.upb.de & 131.234.250.31\\
+		\hline
+		\textbf{PC3} & 3.00GHz & 2 & 8GB & Ubuntu 14.04 LTS & fg-cn-crowd-3.cs.upb.de & 131.234.250.32\\
+		\hline
+		\textbf{PC4} & 3.00GHz & 2 & 8GB & Ubuntu 14.04 LTS & fg-cn-crowd-4.cs.upb.de & 131.234.250.33\\
+		\hline
+		\multicolumn{7}{|c|}{All are Intel(R) Core(TM)2 Duo CPU E8400 processor}\\
+		\hline
+	\end{tabular}
+	}
+\end{table}
+
+\section{Software Installation and Configuration}
+All machines run on Ubuntu 14.04 LTS OS. The testbed has two user accounts configured, \textit{crowd} and \textit{maxinet}. The \textit{crowd} user can be used for running any application, including SDN Controller. On the other hand, the \textit{maxinet} user can execute commands as root with sudo without a password and is needed to run the MaxiNet emulation.
+
+The following softwares are installed in the MaxiNet Frontend (PC1):
+
+\begin{enumerate}
+	\item Mininet v2.2.1
+	\item Maxinet v1.0
+	\item Metis v5.1
+	\item Pyro v4.37
+	\item Ryu v4.13
+\end{enumerate}
+
+Meanwhile, the following softwares listed below are installed in the MaxiNet Worker (PC2, PC3, and PC4):
+\begin{enumerate}
+	\item Mininet v2.2.1
+	\item Maxinet v1.0
+	\item Metis v5.1
+	\item Pyro v4.37
+	\item iperf v2.0.5 (Customized)
+\end{enumerate}
+
+I assumed that the version control utility \textit{git}, programming language \textit{Python v2.7.6}, and package manager \textit{pip} are already installed in all the machines. Below, I describe the installation instruction of the software mentioned above:
+
+\paragraph{Metis:} 
+The archived source code of \textit{Metis v5.1} was downloaded and installed (see Listing \ref{lst:metisi}). There is no specific configuration necessary for \textit{Metis}.
+
+\begin{lstlisting}[caption={Metis nstallation},label={lst:metisi},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+wget http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz
+tar -xzf metis-5.1.0.tar.gz
+cd metis-5.1.0
+make config
+make
+sudo make install
+\end{lstlisting}
+
+\paragraph{Pyro:} 
+The archived source code of \textit{Pyro v4.37} was downloaded and installed (see Listing \ref{lst:pyroi}). There is no specific configuration necessary for \textit{Pyro}.
+\begin{lstlisting}[caption={Pyro installation},label={lst:pyroi},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+git clone git://github.com/mininet/mininet
+cd mininet
+git checkout -b 2.2.1 2.2.1
+cd util/
+./install.sh
+\end{lstlisting}
+
+\paragraph{Mininet:} 
+The latest source code from the \textit{Mininet} repository was downloaded and installed (see Listing \ref{lst:minineti}). There is no specific configuration necessary for \textit{Mininet}.
+\begin{lstlisting}[caption={Mininet installation},label={lst:minineti},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+git clone git://github.com/mininet/mininet
+cd mininet
+git checkout -b 2.2.1 2.2.1
+cd util/
+./install.sh
+\end{lstlisting}
+
+\paragraph{MaxiNet:} 
+The latest source code from the \textit{MaxiNet} repository was downloaded and installed (see Listing \ref{lst:maxineti}).
+\begin{lstlisting}[caption={MaxiNet installation},label={lst:maxineti},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+git clone git://github.com/MaxiNet/MaxiNet.git
+cd MaxiNet
+git checkout v1.0
+sudo make install
+\end{lstlisting}
+
+Since I am running Ubuntu, I have to set up a user (\textit{maxinet}) to use \textit{sudo} without password (see Listing \ref{lst:nopass}). This is done by adding the following line to in the \textit{/etc/sudoers} file.
+\begin{lstlisting}[caption={Set no password},label={lst:nopass},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+maxinet ALL=(ALL) NOPASSWD: ALL
+\end{lstlisting}
+
+The next thing I did was, copied the \textit{MaxiNet.cfg} to \textit{/etc/} and modified it (see Listing \ref{lst:cmaxinetc} and \ref{lst:emaxinetc}).
+\begin{lstlisting}[caption={Copy MaxiNet configuration},label={lst:cmaxinetc},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+sudo cp ~/MaxiNet/share/MaxiNet-cfg-sample /etc/MaxiNet.cfg
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Edit MaxiNet configuration},label={lst:emaxinetc},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+[all]
+password = HalloWelt
+controller = 131.234.250.30:6633
+logLevel = INFO        ; Either CRITICAL, ERROR, WARNING, INFO  or DEBUG
+port_ns = 9090         ; Nameserver port
+port_sshd = 5345       ; Port where MaxiNet will start an ssh server on each worker
+runWith1500MTU = True ; Set this to True if your physical network can not handle MTUs >1500.
+useMultipleIPs = 0     ; for RSS load balancing. Set to n > 0 to use multiple IP addresses per worker. More information on this feature can be found at MaxiNets github Wiki.
+deactivateTSO = True   ; Deactivate TCP-Segmentation-Offloading at the emulated hosts.
+sshuser = maxinet         ; On Debian set this to root. On ubuntu set this to user which can do passwordless sudo
+usesudo = True        ; If sshuser is set to something different than root set this to True.
+
+[FrontendServer]
+ip = 131.234.250.30
+
+[fgcn-crowd-2]
+ip = 131.234.250.31
+share = 1
+
+[fgcn-crowd-3]
+ip = 131.234.250.32
+share = 1
+
+[fgcn-crowd-4]
+ip = 131.234.250.33
+share = 1
+\end{lstlisting}
+
+\paragraph{Ryu:} 
+The latest source code from the \textit{Ryu} repository was downloaded and installed (see Listing \ref{lst:ryui}). There is no specific configuration necessary for \textit{Ryu}, but it is good to check if the \textit{/usr/local/etc/ryu/ryu.conf} has been configured for expected host and port. For example, FCAPF Network Controller is running on PC1 and it uses WSGI port 8080 and OpenFlow listen port 6633 and host as localhost, these are default Ryu settings. It is important to note that the OpenFlow listen host and port should match the \textit{MaxiNet} configuration, and WSGI host and port should match the FlexFCAPF configuration. FlexFCAPF uses this host and port information to call REST APIs provided by the FlexFCAPF Network Controller.
+\begin{lstlisting}[caption={Ryu installation},label={lst:ryui},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+git clone git://github.com/osrg/ryu.git
+cd ryu
+sudo pip install .
+\end{lstlisting}
+
+\paragraph{Iperf:} 
+Standard \textit{iperf} is not suitable for the testbed I built because I need to add a \textit{bucket\_id} in the \textit{iperf} packet. The modified \textit{iperf} code is available in the \textit{FlexFCAPF} repository. The steps for building the \textit{iperf} from source code is as follows (see Listing \ref{lst:iperfi}):
+
+\begin{lstlisting}[caption={Iperf installation},label={lst:iperfi},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+git clone git@github.com:tarunsarkar/flexfcapf.git
+cd flexfcapf/iperf2
+./configure
+make
+cd ../
+cp iperf2/src/iperf .
+\end{lstlisting}
+
+All the following scripts or executables are expected to be present inside \textit{flexfcapf} directory of the home directory of the \textit{maxinet} user. If not present, then the hard coded path in FlexFCAPF code referring them should be modified. They are all available in the FlexFCAPF repository:
+
+\begin{enumerate}
+	\item fcapf\_ryu\_controller.py, the network controller.
+	\item cleanfront.sh, script to clean up and restart MaxiNet Frontend.
+	\item cleanworker.sh, script to clean up and restart MaxiNet Worker.
+	\item configure\_delay.sh, script to configure processing delay in the LCAs.
+	\item iperf, the customized built \textit{iperf} to generate traffic with given \textit{bucket\_id}.
+\end{enumerate}
+
+\section{System Operation}
+It is recommended to clone the \textit{FlexFCAPF} repository in all the machines inside the home directory of \textit{maxinet} user, which would create a sub-directory named \textit{flexfcapf}. This way, all the required code, scripts, and executable are available inside \textit{~/flexfcapf} directory. Login as \textit{maxinet} user in all the Workers (PC2, PC3, and PC4) and execute the following command; this will clean the environment and start the worker (see Listing \ref{lst:cworker}):
+
+\begin{lstlisting}[caption={Clean worker},label={lst:cworker},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+cd ~
+git clone git@github.com:tarunsarkar/flexfcapf.git
+cd flexfcapf
+bash cleanworker.sh
+\end{lstlisting}
+
+Login as \textit{maxinet} user in the Frontend (PC1) and execute the following command (see Listing \ref{lst:cfront}):
+
+\begin{lstlisting}[caption={Clean frontend},label={lst:cfront},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+cd ~
+git clone git@github.com:tarunsarkar/flexfcapf.git
+cd flexfcapf
+bash cleanfront.sh
+\end{lstlisting}
+
+The steps above will start the MaxiNet Frontend and will start the FCAPFNetworkController in the background. Next, a Topology description file needs to be generated in the Frontend itself. The following command will generate a mesh topology description file with 36 nodes and 1000 flows (see Listing \ref{lst:gtd}):
+
+\begin{lstlisting}[caption={Generate topology description},label={lst:gtd},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+cd ~/flexfcapf
+python Generator_mesh.py 6 6 1000 Test_36_mesh.dat
+\end{lstlisting}
+
+Next execute the following command to start the emulation test (see Listing \ref{lst:semue}).
+
+\begin{lstlisting}[caption={Start emulation exeution},label={lst:semue},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+cd ~/flexfcapf
+python csimpfo_fcfs.py MaxiNet 7200 Test_36_mesh.dat
+\end{lstlisting}
+This will execute the test for 2 hours and test results will be saved in \textit{~/flexfcapf/results} directory.
+
+Execute the following command to setup the network without the emulation (see Listing \ref{lst:snwe}).
+\begin{lstlisting}[caption={Setup network without emulation},label={lst:snwe},language=bash,tabsize=2,basicstyle=\footnotesize,breaklines=true,showspaces=false,showstringspaces=false,showtabs=false,frame=single]
+cd ~/flexfcapf
+python crun_flexfcfs.py MaxiNet Test_36_mesh.dat
+\end{lstlisting}
+
+This will set up a network with 36 nodes and will also run the algorithm once so that forwarding entries are added in the underlying network elements.

@@ -1,0 +1,31 @@
+% chap5.tex (Conclusion)
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+
+\chapter{Conclusion \& Future Work} \label{CONC-CHAP}
+
+\section{Conclusion}
+I built an SDN-based emulation testbed which is flexible, realistic, scalable and agile. Any kind of network topology can be created and execute experiment on it. A flexible way for manipulating the load level is defined. It is possible to use either Mininet or MaxiNet emulation framework to create an emulation network, run any SDN controller and control the link bandwidth and CPU power if necessary. The testbed is designed to evaluate any FCAPP solution approach.
+
+The testbed provides almost similar functionality as a real hardware network. It runs a real SDN controller which has the capability of discovering the underlying network and has a REST interface to accept a request from other applications and implement it in the underlying network. The testbed supports real traffic generation and traffic characteristics (data rate, duration) can be controlled. It is also possible to pass user defined identifier in the packet of the generated traffic. The testbed has a high fidelity data processing capability which is implemented in a very lightweight manner, it takes very less (almost negligible) processing power of the hardware. The testbed also has the ability to receive and regenerate real traffic. Most importantly, experiments can be executed in real time.
+
+The testbed is designed to be highly scalable; it is possible to create a network with just 9 nodes and the number of nodes can be increased to 64 nodes with low load level. But this constraint is due to limited hardware capacity; it is possible to prepare a network of thousands of nodes with a right amount of hardware.
+
+The testbed source code is not dependent on the hardware. It is possible to move the source code to any system with Debian 8.0 and Ubuntu 14.04 and execute emulation.
+
+Different tests have been executed to verify if all the aforementioned functionalities are working. To verify controller functionality a test has been executed and demonstrated that the traffic in the underlying network follows the right path as specified. Traffic generation logs are saved for the whole experiment executed and later verified that more than 90\% of real traffic generation happened as desired. Multiple traffic control objects are configured in the same interface and packet are passed through it; it has been observed that right delay has been applied to each packet passing through that interface based on the packet identifier. To verify the data processing capability under high load situation, 100 parallel connections were established between two nodes and 1,000 packets were transferred between them. It was observed that the right average delay was applied to all the packets as specified and 0\% packet loss was observed.
+
+A varying load level is maintained during the whole execution and it is observed that FlexFCAPF algorithm successfully adjust the network based on the load level in the system. This proves that FlexFCAPF is a feasible solution in more realistic network setup (i.e., emulation). It was observed that even at the peak load situation FlexFCAPF does not take more than 20 ms to reconfigure the whole network. No dereference was observed in terms of performance of the algorithm execution in simulation and emulation. A similar amount of LCA was used for test execution with similar kind of load level in both simulation and emulation. These evaluations prove that functionality wise, FlexFCAPF is working correctly.
+
+\section{Future Work}
+Even though I successfully achieved all the goals of my thesis, I still observed some aspects during the course of the thesis which could be tackled in future research. The Ryu SDN controller used cannot survive for long hours if the load in the testbed is high. There is a problem in the SDN controller when multiple connection requests come from the network elements with same DPID. This situation was observed when there is huge load in the OVS, it restarts (see Section \ref{sec:expscn}) and causes multi-connection problem. This kind of problem can be analysed easily if a monitoring tool (e.g., Ntop \cite{ntop}, Zenoss \cite{zenoss}) is running on the testbed. A monitoring tool not only identify problems it can also be used to see real time statistics of traffic flows, load on a network elements and many more. Running any network monitoring tool would need lot of hardware resources. 
+
+Currently, I am using iperf for traffic generation and socat as traffic receiver. With this setup, it is not possible to track each and every packet from source node to the destination, which is why I could not measure the packet loss in the network (if any) for the whole execution of the experiments. A possible, yet labor-intensive solution would be to develop a custom traffic generator and traffic receiver like iperf so that one can track each packet travelling in the network and calculate packet loss for the whole experiment execution. 
+
+A real data processing application can be implemented in the testbed (e.g., a simple traffic summary aggregator or a complex data encryption application), provided the right amount of hardware resource is available in the testbed. Right now RCA has no realistic significance in the testbed. Since the SDN controller has a complete view of the network, a logical connection can be created between the RCA and the SDN controller to have a realistic implementation.
+
+\newpage
+\thispagestyle{empty}
+\mbox{}

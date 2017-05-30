@@ -1,0 +1,4 @@
+type;prob;bflowlbound;bflowubound;lflow
+voice;0.5;5.0e5;5.0e5;5.0e-3
+video;0.4;1.0e6;4.0e6;10.0e-3
+data;0.1;1.0e6;20.0e6;50.0e-3
